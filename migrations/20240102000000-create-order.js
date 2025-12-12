@@ -1,44 +1,46 @@
 'use strict';
 
-/**
- * Not: status alanı enum düşünülmüş ama sonra vazgeçilmiş gibi.
- * Ayrıca customerId için foreign key eksik.
- */
-
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('orders', {
       id: {
-        type: Sequelize.INTEGER,
+        allowNull: false,
+        autoIncrement: true,
         primaryKey: true,
-        autoIncrement: true
+        type: Sequelize.INTEGER
       },
       customer_id: {
         type: Sequelize.INTEGER,
-        allowNull: false
-        // TODO: foreign key constraint eklenecekti
+        allowNull: false,
+        references: {
+          model: 'customers', // Veritabanındaki tablo adı
+          key: 'id'
+        },
+        onUpdate: 'CASCADE',
+        onDelete: 'CASCADE' // Müşteri silinirse siparişleri de silinsin (veya SET NULL yapılabilir)
       },
       status: {
-        type: Sequelize.STRING,
-        allowNull: true // modelde NOT NULL
+        type: Sequelize.ENUM('PENDING', 'PREPARING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+        allowNull: false,
+        defaultValue: 'PENDING'
       },
       total_amount: {
         type: Sequelize.DECIMAL(10, 2),
-        allowNull: true
+        allowNull: false,
+        defaultValue: 0.00
       },
-      // TODO: eski yazılımcı order_items tablosu planlamış ama yok
       created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
+        allowNull: false,
+        type: Sequelize.DATE
       },
       updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
+        allowNull: false,
+        type: Sequelize.DATE
       }
     });
   },
 
-  async down(queryInterface) {
+  async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('orders');
   }
 };
