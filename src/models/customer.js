@@ -1,4 +1,3 @@
-// Not: Migration dosyasıyla birebir aynı değil, bilinçli tutarsızlık var.
 module.exports = (sequelize, DataTypes) => {
   const Customer = sequelize.define('Customer', {
     id: {
@@ -8,7 +7,10 @@ module.exports = (sequelize, DataTypes) => {
     },
     firstName: {
       type: DataTypes.STRING,
-      allowNull: false // ama ETL verisinde boş gelebiliyor
+      allowNull: false,
+      validate: {
+        notEmpty: true
+      }
     },
     lastName: {
       type: DataTypes.STRING,
@@ -16,25 +18,29 @@ module.exports = (sequelize, DataTypes) => {
     },
     phone: {
       type: DataTypes.STRING,
-      allowNull: true // TODO: zorunlu mu olmalı kararlaştırılacak
+      allowNull: true,
+      unique: true
     },
     email: {
       type: DataTypes.STRING,
       allowNull: true,
-      // TODO: uygun validator eklenmemiş
+      unique: true,
+      validate: {
+        isEmail: true
+      }
     },
     address: {
       type: DataTypes.TEXT,
       allowNull: true
     },
-    // Migration'da yok:
     isActive: {
       type: DataTypes.BOOLEAN,
       defaultValue: true
     }
   }, {
     tableName: 'customers',
-    underscored: true
+    underscored: true,
+    timestamps: true
   });
 
   return Customer;
