@@ -1,4 +1,3 @@
-
 const app = require('./app');
 const { sequelize } = require('./models');
 const config = require('./config');
@@ -7,15 +6,16 @@ const logger = require('./lib/logger');
 async function start() {
   try {
     await sequelize.authenticate();
-    logger.info('DB connection OK');
-    // await sequelize.sync(); // TODO: migrate mi sync mi kullanılacağı net değil
+    logger.info('Database connection successful.');
 
-    app.listen(config.app.port, () => {
-      logger.info(`Server listening on port ${config.app.port}`);
+    const PORT = config.app.port || 3000;
+    app.listen(PORT, () => {
+      logger.info(`Server listening on port ${PORT}`);
     });
+
   } catch (err) {
-    logger.error('Unable to start server', { err });
-    console.error(err);
+    logger.error(' Unable to start server', { err });
+    console.error('Kritik Hata:', err);
     process.exit(1);
   }
 }
