@@ -1,1 +1,13 @@
 2025-12-13 17:55:12 [error]: Sistem testi: Kritik bir hata oluştu! (Test Amaçlı) 
+2025-12-13 19:45:20 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 56 
+2025-12-13 19:45:21 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 56 
+2025-12-13 19:45:21 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 19:45:21 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 19:45:21 [error]: createOrder Error: InsufficientStock 
+2025-12-13 19:45:21 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 62 
+2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 62 
+2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 63 
+2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 63 

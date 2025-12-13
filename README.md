@@ -22,7 +22,7 @@ Bu proje, eski sistemlerden veya Excel dosyalarından gelen kirli müşteri veri
 ### Nasıl Çalıştırılır?
 
 1. Kök dizinde `customers.csv` dosyasının bulunduğundan emin olun.
-2. Aşağıdaki komutu terminalde çalıştırın:
+2. Aşağıdaki node scripts/etl-import.js komutu ile çalıştırın
 
 ## Kurulum (eksik)
 

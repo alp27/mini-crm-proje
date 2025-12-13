@@ -2,7 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
 const { Customer, sequelize } = require('../src/models'); 
+const logger = require('../src/lib/logger');
+
 const csvFilePath = path.join(__dirname, '../customers.csv');
+
 function cleanPhone(phone) {
   if (!phone) return null;
   let cleaned = phone.replace(/\D/g, '');
@@ -18,6 +21,7 @@ function isValidEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
 }
+
 async function importData() {
   const results = [];
   let stats = {
@@ -27,7 +31,7 @@ async function importData() {
     invalid: 0
   };
 
-  console.log('------------------------------------------------');
+  logger.info('ETL Import Process Started via CSV...');
 
   try {
     await sequelize.authenticate();
@@ -48,7 +52,6 @@ async function importData() {
           let cleanPhoneNumber = cleanPhone(rawPhone);
 
           let email = row['Email'] && isValidEmail(row['Email']) ? row['Email'].trim() : null;
-
           
           const existingCustomer = await Customer.findOne({
             where: {
@@ -60,10 +63,11 @@ async function importData() {
           });
 
           if (existingCustomer) {
-            console.log(`⚠️  Duplicate Atlandı: ${firstName} ${lastName || ''} (Tel: ${cleanPhoneNumber})`);
+            logger.warn(`Duplicate skipped: ${firstName} ${lastName || ''} (Phone: ${cleanPhoneNumber})`);
             stats.duplicate++;
             continue; 
           }
+
           try {
             await Customer.create({
               firstName: firstName,
@@ -73,27 +77,23 @@ async function importData() {
               address: row['Adres'] || null,
               isActive: true
             });
-            console.log(`✅ Eklendi: ${firstName} ${lastName || ''}`);
+            logger.info(`Customer imported: ${firstName} ${lastName || ''}`);
             stats.success++;
           } catch (err) {
-            console.error(`❌ DB Hatası (${firstName}):`, err.message);
+            logger.error(`Import Error (${firstName}): ${err.message}`);
             stats.invalid++;
           }
         }
 
-        
-
-        console.log('\n------------------------------------------------');
-        console.log('📊 ETL SONUÇ RAPORU');
-        console.log('------------------------------------------------');
         console.table(stats);
-        console.log('------------------------------------------------');
+        logger.info(`ETL Completed. Stats: Success=${stats.success}, Duplicate=${stats.duplicate}, Invalid=${stats.invalid}`);
         process.exit();
       });
 
   } catch (error) {
-    console.error('Kritik Hata:', error);
+    logger.error(`Critical ETL Error: ${error.message}`);
     process.exit(1);
   }
 }
+
 importData();
