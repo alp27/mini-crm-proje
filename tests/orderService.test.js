@@ -1,57 +1,128 @@
 const orderService = require('../src/services/orderService');
 const customerService = require('../src/services/customerService');
-const { sequelize, Order, Customer } = require('../src/models');
+const productService = require('../src/services/productService');
+const { sequelize, Order, Customer, Product } = require('../src/models');
 
-let testCustomer;
-let createdOrderId;
+let createdIds = { orders: [], customers: [], products: [] };
 
 beforeAll(async () => {
     await sequelize.authenticate();
-    testCustomer = await customerService.createCustomer({
-        firstName: "Order",
-        lastName: "Tester",
-        email: "order.cleanup@jest.com",
-        phone: "05001234567"
-    });
 });
 
 afterAll(async () => {
-    if (createdOrderId) {
-        await Order.destroy({ where: { id: createdOrderId } });
-    }
-    
-    if (testCustomer && testCustomer.id) {
-        await Customer.destroy({ where: { id: testCustomer.id } });
-    }
-    
-    console.log('🗑️ Order ve Customer test verileri temizlendi.');
+    if (createdIds.orders.length > 0) await Order.destroy({ where: { id: createdIds.orders } });
+    if (createdIds.customers.length > 0) await Customer.destroy({ where: { id: createdIds.customers } });
+    if (createdIds.products.length > 0) await Product.destroy({ where: { id: createdIds.products } });
     await sequelize.close();
 });
 
-describe('Order Service Birim Testleri', () => {
+describe('Order Service - Gelişmiş Senaryolar', () => {
 
-    test('Sipariş oluşturulmalı', async () => {
-        const newOrder = {
-            customerId: testCustomer.id,
-            totalAmount: 250.00,
-            status: 'PENDING'
+    test('Senaryo 1: Tamamen yeni bir müşteri (Guest) başarıyla sipariş verebilmeli', async () => {
+        console.log('\n--- TEST 1: Guest Checkout (Başarılı) ---');
+        
+        const product = await productService.createProduct({
+            name: "Test Ürün",
+            sku: `GST-OK-${Date.now()}`,
+            stock: 100,
+            price: 50.00
+        });
+        createdIds.products.push(product.id);
+
+        const uniqueTime = Date.now();
+        const orderPayload = {
+            customer: {
+                firstName: "Yeni",
+                lastName: "Misafir",
+                email: `guest.new.${uniqueTime}@test.com`,
+                phone: `555${String(uniqueTime).slice(-7)}`
+            },
+            items: [
+                { productId: product.id, quantity: 2 }
+            ]
         };
 
-        const created = await orderService.createOrder(newOrder);
-        createdOrderId = created.id; 
+        const order = await orderService.createOrder(orderPayload);
+        createdIds.orders.push(order.id);
+        createdIds.customers.push(order.customerId); 
 
-        expect(created).toHaveProperty('id');
-        expect(created.customerId).toBe(testCustomer.id);
+        expect(order).toHaveProperty('id');
+        expect(order.customerId).toBeDefined();
+        console.log(`✅ Başarılı: Yeni müşteri oluşturuldu ve sipariş alındı. (Order ID: ${order.id})`);
     });
 
-    test('Siparişler listelenmeli', async () => {
-        const orders = await orderService.listOrders({ status: 'PENDING' });
-        expect(Array.isArray(orders)).toBe(true);
-        expect(orders.length).toBeGreaterThan(0);
+    test('Senaryo 2: Zaten kayıtlı bir e-posta ile misafir siparişi verilirse HATA fırlatmalı', async () => {
+        console.log('\n--- TEST 2: Guest Checkout (Existing Email - Hata Bekleniyor) ---');
+
+        const uniqueTime = Date.now();
+        const existingEmail = `existing.${uniqueTime}@test.com`;
+        
+        const existingCustomer = await customerService.createCustomer({
+            firstName: "Mevcut",
+            lastName: "Müşteri",
+            email: existingEmail,
+            phone: `542${String(uniqueTime).slice(-7)}`
+        });
+        createdIds.customers.push(existingCustomer.id);
+        console.log(`1. Mevcut müşteri oluşturuldu: ${existingEmail}`);
+
+        const product = await productService.createProduct({
+            name: "Çakışma Testi Ürünü",
+            sku: `CONFLICT-${uniqueTime}`,
+            stock: 50,
+            price: 100
+        });
+        createdIds.products.push(product.id);
+
+        const orderPayload = {
+            customer: {
+                firstName: "Taklitçi",
+                email: existingEmail, // <--- AYNI EMAIL!
+                phone: "05999999999"
+            },
+            items: [{ productId: product.id, quantity: 1 }]
+        };
+
+        try {
+            await orderService.createOrder(orderPayload);
+        } catch (error) {
+            console.log(`Beklenen hata yakalandı: "${error.message}"`);
+        }
+
+        await expect(orderService.createOrder(orderPayload))
+            .rejects
+            .toThrow('CustomerAlreadyExists');
+        
+        console.log('Başarılı: Sistem mevcut e-postayı fark etti ve işlemi reddetti.');
     });
 
-    test('Olmayan müşteriye sipariş verilememeli', async () => {
-        await expect(orderService.createOrder({ customerId: 999999, totalAmount: 10 }))
-            .rejects.toThrow();
+    test('Senaryo 3: Stok yetersizse sipariş reddedilmeli', async () => {
+        console.log('\n--- TEST 3: Yetersiz Stok ---');
+        
+        const product = await productService.createProduct({
+            name: "Az Stoklu",
+            sku: `LOW-STK-${Date.now()}`,
+            stock: 1, 
+            price: 100,
+            isStockTracking: true
+        });
+        createdIds.products.push(product.id);
+
+        const uniqueTime = Date.now();
+        const orderPayload = {
+            customer: {
+                 firstName: "Stok", 
+                 email: `stock.${uniqueTime}@mail.com`, 
+                 phone: `533${String(uniqueTime).slice(-7)}`
+            },
+            items: [{ productId: product.id, quantity: 5 }]
+        };
+
+        await expect(orderService.createOrder(orderPayload))
+            .rejects
+            .toThrow('InsufficientStock');
+            
+        console.log('Başarılı: Yetersiz stok hatası alındı.');
     });
+
 });
