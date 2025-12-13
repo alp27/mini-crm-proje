@@ -483,3 +483,831 @@
 2025-12-13 21:16:27 [error]: decreaseStock Error: InsufficientStock 
 2025-12-13 21:16:27 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765649787623) - Stock: 0 
 2025-12-13 21:16:27 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765649787623. Skipping decrement. 
+2025-12-13 21:40:32 [info]: Database connection has been established successfully. 
+2025-12-13 21:40:32 [info]: Server is running on port 3000 
+2025-12-13 21:40:48 [info]: Incoming Request: GET / 
+2025-12-13 21:41:31 [info]: Incoming Request: GET /api-docs 
+2025-12-13 21:41:31 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:41:31 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:41:31 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:41:31 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:41:31 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:41:31 [info]: Incoming Request: GET /api-docs/favicon-32x32.png 
+2025-12-13 21:43:22 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:43:22 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:43:22 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:43:22 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:43:22 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:43:25 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:43:25 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:43:25 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:43:25 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:43:25 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:43:35 [info]: Database connection has been established successfully. 
+2025-12-13 21:43:35 [info]: Server is running on port 3000 
+2025-12-13 21:43:38 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:43:38 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:43:38 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:43:38 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:43:38 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:47:38 [info]: Incoming Request: GET /api/customers 
+2025-12-13 21:47:38 [info]: Listed customers: Retrieved 39 records 
+2025-12-13 21:47:38 [info]: Incoming Request: GET /favicon.ico 
+2025-12-13 21:52:00 [info]: Database connection has been established successfully. 
+2025-12-13 21:52:00 [info]: Server is running on port 3000 
+2025-12-13 21:52:07 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:52:07 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:52:07 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:52:07 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:52:07 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:52:11 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:52:11 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:52:11 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:52:11 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:52:11 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:52:13 [info]: Incoming Request: GET /api/customers 
+2025-12-13 21:52:13 [info]: Listed customers: Retrieved 39 records 
+2025-12-13 21:53:26 [info]: Database connection has been established successfully. 
+2025-12-13 21:53:26 [info]: Server is running on port 3000 
+2025-12-13 21:53:30 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:53:30 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:53:30 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:53:30 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:53:30 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:53:33 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:53:33 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:53:33 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:53:33 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:53:33 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:55:28 [info]: Database connection has been established successfully. 
+2025-12-13 21:55:28 [info]: Server is running on port 3000 
+2025-12-13 21:55:33 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:55:33 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:55:33 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:55:33 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:55:33 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:55:36 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:55:36 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:55:36 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:55:36 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:55:36 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:55:45 [info]: Incoming Request: GET / 
+2025-12-13 21:55:52 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:55:52 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:55:52 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:55:52 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:55:52 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:57:31 [info]: Database connection has been established successfully. 
+2025-12-13 21:57:31 [info]: Server is running on port 3000 
+2025-12-13 21:57:35 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 21:57:35 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 21:57:35 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 21:57:35 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 21:57:35 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 21:59:23 [info]: Database connection has been established successfully. 
+2025-12-13 21:59:23 [info]: Server is running on port 3000 
+2025-12-13 22:01:22 [info]: Database connection has been established successfully. 
+2025-12-13 22:01:22 [info]: Server is running on port 3000 
+2025-12-13 22:02:43 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:02:43 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:02:43 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:02:43 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:02:43 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:05:19 [info]: Database connection has been established successfully. 
+2025-12-13 22:05:19 [info]: Server is running on port 3000 
+2025-12-13 22:05:23 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:05:23 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:05:23 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:05:23 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:05:23 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:05:29 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:05:29 [info]: Listed customers: Retrieved 39 records 
+2025-12-13 22:06:23 [info]: Database connection has been established successfully. 
+2025-12-13 22:06:23 [info]: Server is running on port 3000 
+2025-12-13 22:06:37 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:06:37 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:06:37 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:06:37 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:06:37 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:06:40 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:06:40 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:06:40 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:06:40 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:06:40 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:07:12 [info]: Database connection has been established successfully. 
+2025-12-13 22:07:12 [info]: Server is running on port 3000 
+2025-12-13 22:07:15 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:07:15 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:07:15 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:07:15 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:07:15 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:09:11 [info]: Database connection has been established successfully. 
+2025-12-13 22:09:11 [info]: Server is running on port 3000 
+2025-12-13 22:09:16 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:09:16 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:09:16 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:09:16 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:09:16 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:13:24 [info]: Database connection has been established successfully. 
+2025-12-13 22:13:24 [info]: Server is running on port 3000 
+2025-12-13 22:13:28 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:13:28 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:13:28 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:13:28 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:13:28 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:13:37 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:13:37 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:37 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:37 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:13:40 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:13:40 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:40 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:40 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:13:54 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:13:54 [info]: Listed customers: Retrieved 39 records 
+2025-12-13 22:14:12 [info]: Incoming Request: POST /api/customers 
+2025-12-13 22:14:12 [info]: Customer created: ID 1 - Ahmet 
+2025-12-13 22:14:30 [info]: Incoming Request: POST /api/customers 
+2025-12-13 22:14:30 [error]: createCustomer Error: Validation error 
+2025-12-13 22:14:30 [error]: Error creating customer 
+2025-12-13 22:14:56 [info]: Incoming Request: GET /api/customers/185 
+2025-12-13 22:14:56 [warn]: Get Customer Failed: ID 185 not found 
+2025-12-13 22:15:03 [info]: Incoming Request: GET /api/customers/180 
+2025-12-13 22:15:08 [info]: Incoming Request: GET /api/customers/150 
+2025-12-13 22:15:23 [info]: Incoming Request: GET /api/customers/184 
+2025-12-13 22:15:41 [info]: Incoming Request: GET /api/customers/183 
+2025-12-13 22:16:24 [info]: Incoming Request: POST /api/customers 
+2025-12-13 22:16:24 [error]: createCustomer Error: Validation error 
+2025-12-13 22:16:24 [error]: Error creating customer 
+2025-12-13 22:17:18 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:17:18 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:17:18 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:17:18 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:17:18 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:17:57 [info]: Incoming Request: POST /api/customers 
+2025-12-13 22:17:57 [info]: Customer created: ID 185 - alparslan 
+2025-12-13 22:18:47 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:18:47 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:18:47 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:18:47 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:19:06 [info]: Incoming Request: GET /orders 
+2025-12-13 22:19:11 [info]: Incoming Request: GET /customers 
+2025-12-13 22:19:17 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:19:17 [info]: Listed customers: Retrieved 41 records 
+2025-12-13 22:19:20 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:19:20 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:20 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:20 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:19:30 [info]: Incoming Request: GET /api/products 
+2025-12-13 22:19:30 [info]: Listed products: Retrieved 6 records 
+2025-12-13 22:19:33 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:19:33 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:33 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:33 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:19:50 [info]: Incoming Request: GET /api/orders/25 
+2025-12-13 22:19:50 [error]: getOrderById Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:50 [error]: API Get Order Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:50 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Order.findOne (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1240:12)
+    at async Order.findByPk (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1221:12)
+    at async Object.getOrderById (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:113:23) 
+2025-12-13 22:20:02 [info]: Incoming Request: GET /api/products 
+2025-12-13 22:20:02 [info]: Listed products: Retrieved 6 records 
+2025-12-13 22:20:20 [info]: Incoming Request: DELETE /api/customers/185 
+2025-12-13 22:20:20 [info]: Customer deleted: ID 185 
+2025-12-13 22:20:22 [info]: Incoming Request: DELETE /api/customers/185 
+2025-12-13 22:20:22 [warn]: Delete Customer Failed: ID 185 not found 
+2025-12-13 22:21:01 [info]: Incoming Request: DELETE /api/customers/184 
+2025-12-13 22:21:01 [info]: Customer deleted: ID 184 
+2025-12-13 22:21:51 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765653711935) - Stock: 100 
+2025-12-13 22:21:52 [info]: Stock decreased: SKU INT-TEST-1765653711935. New Stock: 98 (-2) 
+2025-12-13 22:21:52 [info]: Order created: ID 30 for Customer 186 - Total: 500 
+2025-12-13 22:21:52 [info]: Customer created: ID 187 - Mevcut 
+2025-12-13 22:21:52 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765653712044) - Stock: 10 
+2025-12-13 22:21:52 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:21:52 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765653712104) - Stock: 1 
+2025-12-13 22:21:52 [warn]: Insufficient Stock: SKU LOW-STK-1765653712104. Current: 1, Requested: 5 
+2025-12-13 22:21:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:21:52 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:21:52 [info]: Customer created: ID 190 - Jest 
+2025-12-13 22:21:52 [info]: Listed customers: Retrieved 40 records 
+2025-12-13 22:21:52 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:21:52 [info]: Customer created: ID 191 - TekİsimliMüşteri 
+2025-12-13 22:21:52 [info]: Customer created: ID 192 - Ahmet 
+2025-12-13 22:21:52 [info]: Customer created: ID 193 - Ahmet 
+2025-12-13 22:21:52 [info]: Customer created: ID 194 - Orjinal 
+2025-12-13 22:21:52 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765653712595@test.com or 5559998877 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 194 
+2025-12-13 22:21:52 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765653712595@test.com or 5559998877 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 194 
+2025-12-13 22:21:52 [info]: Customer created: ID 195 - Telefoncu 
+2025-12-13 22:21:52 [warn]: Create Customer Failed: Duplicate entry for tel2.1765653712604@test.com or 5322075024 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 195 
+2025-12-13 22:21:52 [warn]: Create Customer Failed: Duplicate entry for tel2.1765653712604@test.com or 5322075024 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 195 
+2025-12-13 22:21:52 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765653712926) - Stock: 100 
+2025-12-13 22:21:52 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765653712942) - Stock: 5 
+2025-12-13 22:21:52 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765653712942. Current: 5, Requested: 6 
+2025-12-13 22:21:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:21:52 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765653712954) - Stock: 0 
+2025-12-13 22:21:52 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765653712954. Skipping decrement. 
+2025-12-13 22:24:22 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765653862796) - Stock: 100 
+2025-12-13 22:24:22 [info]: Stock decreased: SKU INT-TEST-1765653862796. New Stock: 98 (-2) 
+2025-12-13 22:24:22 [info]: Order created: ID 32 for Customer 197 - Total: 500 
+2025-12-13 22:24:22 [info]: Customer created: ID 198 - Mevcut 
+2025-12-13 22:24:22 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765653862905) - Stock: 10 
+2025-12-13 22:24:22 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:24:22 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765653862961) - Stock: 1 
+2025-12-13 22:24:22 [warn]: Insufficient Stock: SKU LOW-STK-1765653862961. Current: 1, Requested: 5 
+2025-12-13 22:24:22 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:22 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:24:23 [info]: Customer created: ID 201 - Jest 
+2025-12-13 22:24:23 [info]: Listed customers: Retrieved 45 records 
+2025-12-13 22:24:23 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:24:23 [info]: Customer created: ID 202 - TekİsimliMüşteri 
+2025-12-13 22:24:23 [info]: Customer created: ID 203 - Ahmet 
+2025-12-13 22:24:23 [info]: Customer created: ID 204 - Ahmet 
+2025-12-13 22:24:23 [info]: Customer created: ID 205 - Orjinal 
+2025-12-13 22:24:23 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765653863392@test.com or 5559998877 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 205 
+2025-12-13 22:24:23 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765653863392@test.com or 5559998877 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 205 
+2025-12-13 22:24:23 [info]: Customer created: ID 206 - Telefoncu 
+2025-12-13 22:24:23 [warn]: Create Customer Failed: Duplicate entry for tel2.1765653863400@test.com or 5328096534 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 206 
+2025-12-13 22:24:23 [warn]: Create Customer Failed: Duplicate entry for tel2.1765653863400@test.com or 5328096534 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 206 
+2025-12-13 22:24:23 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765653863863) - Stock: 100 
+2025-12-13 22:24:23 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765653863870) - Stock: 5 
+2025-12-13 22:24:23 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765653863870. Current: 5, Requested: 6 
+2025-12-13 22:24:23 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:23 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765653863884) - Stock: 0 
+2025-12-13 22:24:23 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765653863884. Skipping decrement. 
+2025-12-13 22:24:50 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765653890267) - Stock: 100 
+2025-12-13 22:24:50 [info]: Stock decreased: SKU INT-TEST-1765653890267. New Stock: 98 (-2) 
+2025-12-13 22:24:50 [info]: Order created: ID 34 for Customer 208 - Total: 500 
+2025-12-13 22:24:50 [info]: Customer created: ID 209 - Mevcut 
+2025-12-13 22:24:50 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765653890362) - Stock: 10 
+2025-12-13 22:24:50 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:24:50 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765653890415) - Stock: 1 
+2025-12-13 22:24:50 [warn]: Insufficient Stock: SKU LOW-STK-1765653890415. Current: 1, Requested: 5 
+2025-12-13 22:24:50 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:50 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:24:50 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765653890766) - Stock: 100 
+2025-12-13 22:24:50 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765653890774) - Stock: 5 
+2025-12-13 22:24:50 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765653890774. Current: 5, Requested: 6 
+2025-12-13 22:24:50 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:50 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765653890784) - Stock: 0 
+2025-12-13 22:24:50 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765653890784. Skipping decrement. 
+2025-12-13 22:24:51 [info]: Customer created: ID 212 - Jest 
+2025-12-13 22:24:51 [info]: Listed customers: Retrieved 50 records 
+2025-12-13 22:24:51 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:24:51 [info]: Customer created: ID 213 - TekİsimliMüşteri 
+2025-12-13 22:24:51 [info]: Customer created: ID 214 - Ahmet 
+2025-12-13 22:24:51 [info]: Customer created: ID 215 - Ahmet 
+2025-12-13 22:24:51 [info]: Customer created: ID 216 - Orjinal 
+2025-12-13 22:24:51 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765653891175@test.com or 5559998877 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 216 
+2025-12-13 22:24:51 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765653891175@test.com or 5559998877 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 216 
+2025-12-13 22:24:51 [info]: Customer created: ID 217 - Telefoncu 
+2025-12-13 22:24:51 [warn]: Create Customer Failed: Duplicate entry for tel2.1765653891188@test.com or 5327260893 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 217 
+2025-12-13 22:24:51 [warn]: Create Customer Failed: Duplicate entry for tel2.1765653891188@test.com or 5327260893 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 217 
+2025-12-13 22:24:54 [info]: Database connection has been established successfully. 
+2025-12-13 22:24:54 [info]: Server is running on port 3000 
+2025-12-13 22:24:56 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:24:56 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:24:56 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:24:56 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:24:56 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:24:57 [info]: Incoming Request: GET /api-docs/favicon-32x32.png 
+2025-12-13 22:24:59 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:24:59 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:24:59 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:24:59 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:26:21 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:26:21 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:21 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:21 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:26:23 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:26:23 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:23 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:23 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:26:27 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:26:27 [info]: Listed customers: Retrieved 54 records 
+2025-12-13 22:26:29 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:26:29 [info]: Listed customers: Retrieved 54 records 
+2025-12-13 22:28:21 [info]: Database connection has been established successfully. 
+2025-12-13 22:28:21 [info]: Server is running on port 3000 
+2025-12-13 22:28:25 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:28:25 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:25 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:28:27 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:28:27 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:27 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:28:30 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:28:30 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:30 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:28:33 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:28:41 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:28:41 [info]: Listed customers: Retrieved 54 records 
+2025-12-13 22:28:41 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:28:45 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:28:45 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:45 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:28:45 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:32:28 [info]: Database connection has been established successfully. 
+2025-12-13 22:32:28 [info]: Server is running on port 3000 
+2025-12-13 22:32:35 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:32:35 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:32:35 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:32:35 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:32:35 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:33:36 [info]: Database connection has been established successfully. 
+2025-12-13 22:33:36 [info]: Server is running on port 3000 
+2025-12-13 22:33:38 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:33:38 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:33:38 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:33:38 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:33:38 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:34:02 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:34:02 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:02 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:02 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:34:02 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:34:16 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:34:16 [info]: Listed customers: Retrieved 54 records 
+2025-12-13 22:34:16 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:34:36 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:34:36 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:36 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:36 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:34:36 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:34:45 [info]: Database connection has been established successfully. 
+2025-12-13 22:34:45 [info]: Server is running on port 3000 
+2025-12-13 22:34:48 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:34:48 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:48 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:48 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:86:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:35:24 
+2025-12-13 22:34:48 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:35:58 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:35:58 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:35:58 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:35:58 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:86:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:35:24 
+2025-12-13 22:35:58 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:36:04 [info]: Database connection has been established successfully. 
+2025-12-13 22:36:04 [info]: Server is running on port 3000 
+2025-12-13 22:36:07 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:36:18 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:36:18 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:36:18 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:36:18 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:36:18 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:36:28 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:36:28 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:36:28 [info]: Incoming Request: GET /api-docs/swagger-ui.css.map 
+2025-12-13 22:36:46 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:37:18 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:37:18 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:37:18 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:37:18 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:37:18 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:37:33 [info]: Database connection has been established successfully. 
+2025-12-13 22:37:33 [info]: Server is running on port 3000 
+2025-12-13 22:37:38 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:37:39 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:37:40 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:37:40 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:37:41 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:37:42 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:39:08 [info]: Database connection has been established successfully. 
+2025-12-13 22:39:08 [info]: Server is running on port 3000 
+2025-12-13 22:39:14 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:39:14 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:39:16 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:39:17 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:39:19 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:39:19 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:39:22 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:39:22 [info]: Incoming Request: GET /.well-known/appspecific/com.chrome.devtools.json 
+2025-12-13 22:39:33 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:39:33 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:39:33 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:39:33 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:39:33 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:39:43 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:40:02 [info]: Incoming Request: POST /api/orders 
+2025-12-13 22:40:02 [warn]: Stock Update Failed: Product ID 10 not found 
+2025-12-13 22:40:02 [error]: decreaseStock Error: ProductNotFound 
+2025-12-13 22:40:02 [error]: createOrder Error: ProductNotFound 
+2025-12-13 22:40:02 [error]: API Create Order Error: ProductNotFound 
+2025-12-13 22:40:02 [error]: Unhandled Application Error: ProductNotFound 
+Stack: Error: ProductNotFound
+    at Object.decreaseStock (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\productService.js:46:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrder (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:35:33)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:131:23 
+2025-12-13 22:41:55 [info]: Incoming Request: POST /api/orders 
+2025-12-13 22:41:55 [info]: Stock decreased: SKU INT-TEST-1765648940353. New Stock: 96 (-2) 
+2025-12-13 22:41:55 [info]: Order created: ID 36 for Customer 127 - Total: 500 
+2025-12-13 22:41:55 [error]: API Create Order Error: Transaction cannot be rolled back because it has been finished with state: commit 
+2025-12-13 22:41:55 [error]: Unhandled Application Error: Transaction cannot be rolled back because it has been finished with state: commit 
+Stack: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\transaction.js:59:13)
+    at Object.createOrder (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:74:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:131:23 
+2025-12-13 22:42:58 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:43:35 [info]: Incoming Request: GET /api/orders/36 
+2025-12-13 22:43:35 [error]: getOrderById Error: OrderItem is not associated to Order! 
+2025-12-13 22:43:35 [error]: API Get Order Error: OrderItem is not associated to Order! 
+2025-12-13 22:43:35 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Order.findOne (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1240:12)
+    at async Order.findByPk (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1221:12)
+    at async Object.getOrderById (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:112:23) 
+2025-12-13 22:43:52 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:43:54 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:43:57 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:43:58 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:43:59 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:43:59 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:43:59 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:00 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:00 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:00 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:00 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:01 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:02 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:06 [info]: Incoming Request: GET /api/customers 
+2025-12-13 22:44:06 [info]: Listed customers: Retrieved 54 records 
+2025-12-13 22:44:12 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:44:34 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 22:44:34 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 22:44:34 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 22:44:34 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 22:44:34 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 22:44:42 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:46:05 [info]: Database connection has been established successfully. 
+2025-12-13 22:46:05 [info]: Server is running on port 3000 
+2025-12-13 22:46:09 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:46:11 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:46:11 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:46:11 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:46:12 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:46:12 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:46:13 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:48:19 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:08 [info]: Database connection has been established successfully. 
+2025-12-13 22:52:08 [info]: Server is running on port 3000 
+2025-12-13 22:52:12 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:14 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:16 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:17 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:18 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:18 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:18 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:19 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:28 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:52:29 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:01 [info]: Database connection has been established successfully. 
+2025-12-13 22:58:01 [info]: Server is running on port 3000 
+2025-12-13 22:58:05 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:06 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:07 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:07 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:07 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:08 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:08 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:08 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:08 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:08 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:09 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:09 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:09 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:09 [info]: Incoming Request: GET /api/orders 
+2025-12-13 22:58:41 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765655921663) - Stock: 100 
+2025-12-13 22:58:41 [info]: Customer created: ID 219 - Ali 
+2025-12-13 22:58:41 [info]: Stock decreased: SKU INT-TEST-1765655921663. New Stock: 98 (-2) 
+2025-12-13 22:58:41 [error]: createOrder Error: column "order_id" of relation "orderItems" does not exist 
+2025-12-13 22:58:41 [info]: Customer created: ID 220 - Mevcut 
+2025-12-13 22:58:41 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765655921869) - Stock: 10 
+2025-12-13 22:58:41 [warn]: Create Customer Failed: Duplicate entry for duplicate.1765655921869@test.com or 5999999999 
+2025-12-13 22:58:41 [error]: createCustomer Error: CustomerAlreadyExists: ID 220 
+2025-12-13 22:58:41 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:58:41 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765655921892) - Stock: 1 
+2025-12-13 22:58:41 [info]: Customer created: ID 221 - Stok 
+2025-12-13 22:58:41 [warn]: Insufficient Stock: SKU LOW-STK-1765655921892. Current: 1, Requested: 5 
+2025-12-13 22:58:41 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:58:41 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:58:42 [info]: Customer created: ID 222 - Jest 
+2025-12-13 22:58:42 [info]: Listed customers: Retrieved 57 records 
+2025-12-13 22:58:42 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:58:42 [info]: Customer created: ID 223 - TekİsimliMüşteri 
+2025-12-13 22:58:42 [info]: Customer created: ID 224 - Ahmet 
+2025-12-13 22:58:42 [info]: Customer created: ID 225 - Ahmet 
+2025-12-13 22:58:42 [info]: Customer created: ID 226 - Orjinal 
+2025-12-13 22:58:42 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765655922386@test.com or 5559998877 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 226 
+2025-12-13 22:58:42 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765655922386@test.com or 5559998877 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 226 
+2025-12-13 22:58:42 [info]: Customer created: ID 227 - Telefoncu 
+2025-12-13 22:58:42 [warn]: Create Customer Failed: Duplicate entry for tel2.1765655922394@test.com or 5325714161 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 227 
+2025-12-13 22:58:42 [warn]: Create Customer Failed: Duplicate entry for tel2.1765655922394@test.com or 5325714161 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 227 
+2025-12-13 22:58:42 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765655922720) - Stock: 100 
+2025-12-13 22:58:42 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765655922738) - Stock: 5 
+2025-12-13 22:58:42 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765655922738. Current: 5, Requested: 6 
+2025-12-13 22:58:42 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:58:42 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765655922750) - Stock: 0 
+2025-12-13 22:58:42 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765655922750. Skipping decrement. 
+2025-12-13 22:59:43 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765655983228) - Stock: 100 
+2025-12-13 22:59:43 [info]: Stock decreased: SKU INT-TEST-1765655983228. New Stock: 98 (-2) 
+2025-12-13 22:59:43 [info]: Order created: ID 39 for Customer 229 - Total: 500 
+2025-12-13 22:59:43 [info]: Customer created: ID 230 - Mevcut 
+2025-12-13 22:59:43 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765655983333) - Stock: 10 
+2025-12-13 22:59:43 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:59:43 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765655983386) - Stock: 1 
+2025-12-13 22:59:43 [warn]: Insufficient Stock: SKU LOW-STK-1765655983386. Current: 1, Requested: 5 
+2025-12-13 22:59:43 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:59:43 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:59:44 [info]: Customer created: ID 234 - Jest 
+2025-12-13 22:59:44 [info]: Listed customers: Retrieved 62 records 
+2025-12-13 22:59:44 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:59:44 [info]: Customer created: ID 235 - TekİsimliMüşteri 
+2025-12-13 22:59:44 [info]: Customer created: ID 236 - Ahmet 
+2025-12-13 22:59:44 [info]: Customer created: ID 237 - Ahmet 
+2025-12-13 22:59:44 [info]: Customer created: ID 238 - Orjinal 
+2025-12-13 22:59:44 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765655984102@test.com or 5559998877 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 238 
+2025-12-13 22:59:44 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765655984102@test.com or 5559998877 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 238 
+2025-12-13 22:59:44 [info]: Customer created: ID 239 - Telefoncu 
+2025-12-13 22:59:44 [warn]: Create Customer Failed: Duplicate entry for tel2.1765655984110@test.com or 5323197432 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 239 
+2025-12-13 22:59:44 [warn]: Create Customer Failed: Duplicate entry for tel2.1765655984110@test.com or 5323197432 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 239 
+2025-12-13 22:59:44 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765655984414) - Stock: 100 
+2025-12-13 22:59:44 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765655984432) - Stock: 5 
+2025-12-13 22:59:44 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765655984432. Current: 5, Requested: 6 
+2025-12-13 22:59:44 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:59:44 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765655984442) - Stock: 0 
+2025-12-13 22:59:44 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765655984442. Skipping decrement. 
+2025-12-13 23:02:54 [info]: Database connection has been established successfully. 
+2025-12-13 23:02:54 [info]: Server is running on port 3000 
+2025-12-13 23:03:04 [info]: Incoming Request: GET /api/orders 
+2025-12-13 23:03:04 [info]: Listed orders: Retrieved 1 records 
+2025-12-13 23:03:23 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 23:03:23 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 23:03:23 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 23:03:23 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 23:03:23 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 23:03:30 [info]: Incoming Request: GET /api/orders 
+2025-12-13 23:03:30 [info]: Listed orders: Retrieved 1 records 
+2025-12-13 23:04:00 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765656240639) - Stock: 100 
+2025-12-13 23:04:00 [info]: Stock decreased: SKU INT-TEST-1765656240639. New Stock: 98 (-2) 
+2025-12-13 23:04:00 [info]: Order created: ID 41 for Customer 240 - Total: 500 
+2025-12-13 23:04:00 [info]: Listed orders: Retrieved 1 records 
+2025-12-13 23:04:00 [info]: Customer created: ID 241 - Mevcut 
+2025-12-13 23:04:00 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765656240763) - Stock: 10 
+2025-12-13 23:04:00 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 23:04:00 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765656240819) - Stock: 1 
+2025-12-13 23:04:00 [warn]: Insufficient Stock: SKU LOW-STK-1765656240819. Current: 1, Requested: 5 
+2025-12-13 23:04:00 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 23:04:00 [error]: createOrder Error: InsufficientStock 
+2025-12-13 23:04:01 [info]: Customer created: ID 244 - Jest 
+2025-12-13 23:04:01 [info]: Listed customers: Retrieved 67 records 
+2025-12-13 23:04:01 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 23:04:01 [info]: Customer created: ID 245 - TekİsimliMüşteri 
+2025-12-13 23:04:01 [info]: Customer created: ID 246 - Ahmet 
+2025-12-13 23:04:01 [info]: Customer created: ID 247 - Ahmet 
+2025-12-13 23:04:01 [info]: Customer created: ID 248 - Orjinal 
+2025-12-13 23:04:01 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765656241261@test.com or 5559998877 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 248 
+2025-12-13 23:04:01 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765656241261@test.com or 5559998877 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 248 
+2025-12-13 23:04:01 [info]: Customer created: ID 249 - Telefoncu 
+2025-12-13 23:04:01 [warn]: Create Customer Failed: Duplicate entry for tel2.1765656241270@test.com or 5323791787 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 249 
+2025-12-13 23:04:01 [warn]: Create Customer Failed: Duplicate entry for tel2.1765656241270@test.com or 5323791787 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 249 
+2025-12-13 23:04:01 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765656241900) - Stock: 100 
+2025-12-13 23:04:01 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765656241911) - Stock: 5 
+2025-12-13 23:04:01 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765656241911. Current: 5, Requested: 6 
+2025-12-13 23:04:01 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 23:04:01 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765656241924) - Stock: 0 
+2025-12-13 23:04:01 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765656241924. Skipping decrement. 
+2025-12-13 23:06:49 [info]: Database connection has been established successfully. 
+2025-12-13 23:06:49 [info]: Server is running on port 3000 
+2025-12-13 23:06:54 [info]: Incoming Request: GET /api-docs/ 
+2025-12-13 23:06:54 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-13 23:06:54 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-13 23:06:54 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-13 23:06:54 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-13 23:06:58 [info]: Incoming Request: GET /api/customers 
+2025-12-13 23:06:58 [info]: Listed customers: Retrieved 71 records 
+2025-12-13 23:07:19 [info]: Incoming Request: POST /api/products 
+2025-12-13 23:07:19 [info]: Product created: Akıllı Telefon X-25 (SKU: SMART-PHN-X2) - Stock: 50 
+2025-12-13 23:07:43 [info]: Incoming Request: POST /api/products 
+2025-12-13 23:07:43 [error]: createProduct Error: Validation error 
+2025-12-13 23:07:43 [error]: API Create Product Error: Validation error 
+2025-12-13 23:07:58 [info]: Incoming Request: GET /api/orders 
+2025-12-13 23:07:58 [info]: Listed orders: Retrieved 1 records 
+2025-12-13 23:09:41 [info]: Incoming Request: DELETE /api/orders/36 
+2025-12-13 23:09:41 [info]: Order deleted: ID 36 
+2025-12-13 23:10:36 [info]: Incoming Request: GET /api/orders 
+2025-12-13 23:10:36 [info]: Listed orders: Retrieved 0 records 

@@ -4,6 +4,8 @@ const logger = require('./lib/logger');
 const customersRouter = require('./api/customers');
 const productsRouter = require('./api/products');
 const ordersRouter = require('./api/orders');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./lib/swagger');
 
 const app = express();
 
@@ -17,6 +19,7 @@ app.use((req, res, next) => {
 app.use('/api/customers', customersRouter);
 app.use('/api/products', productsRouter);
 app.use('/api/orders', ordersRouter);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use((err, req, res, next) => {
   logger.error(`Unhandled Application Error: ${err.message} \nStack: ${err.stack}`);

@@ -129,3 +129,335 @@
 2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 184 
 2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 184 
 2025-12-13 21:16:27 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:13:37 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:37 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:37 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:13:40 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:40 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:13:40 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:14:30 [error]: createCustomer Error: Validation error 
+2025-12-13 22:14:30 [error]: Error creating customer 
+2025-12-13 22:16:24 [error]: createCustomer Error: Validation error 
+2025-12-13 22:16:24 [error]: Error creating customer 
+2025-12-13 22:18:47 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:18:47 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:18:47 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:19:20 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:20 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:20 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:19:33 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:33 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:33 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:19:50 [error]: getOrderById Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:50 [error]: API Get Order Error: OrderItem is not associated to Order! 
+2025-12-13 22:19:50 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Order.findOne (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1240:12)
+    at async Order.findByPk (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1221:12)
+    at async Object.getOrderById (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:113:23) 
+2025-12-13 22:21:52 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:21:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:21:52 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:21:52 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 194 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 194 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 195 
+2025-12-13 22:21:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 195 
+2025-12-13 22:21:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:22 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:24:22 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:22 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:24:23 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 205 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 205 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 206 
+2025-12-13 22:24:23 [error]: createCustomer Error: CustomerAlreadyExists: ID 206 
+2025-12-13 22:24:23 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:50 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:24:50 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:50 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:24:50 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:24:51 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 216 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 216 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 217 
+2025-12-13 22:24:51 [error]: createCustomer Error: CustomerAlreadyExists: ID 217 
+2025-12-13 22:24:59 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:24:59 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:24:59 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:26:21 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:21 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:21 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:26:23 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:23 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:26:23 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:28:25 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:25 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:28:27 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:27 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:28:30 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:30 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:28:45 [error]: API List Orders Error: Cannot read properties of undefined (reading 'call') 
+2025-12-13 22:28:45 [error]: Unhandled Application Error: Cannot read properties of undefined (reading 'call') 
+Stack: TypeError: Cannot read properties of undefined (reading 'call')
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Function._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:598:30
+    at Array.forEach (<anonymous>)
+    at Order._expandIncludeAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:597:14)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1117:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-12-13 22:32:35 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:32:35 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:32:35 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:33:38 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:33:38 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:33:38 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:34:02 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:02 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:02 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:34:36 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:36 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:36 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:87:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:33:24 
+2025-12-13 22:34:48 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:48 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:34:48 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:86:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:35:24 
+2025-12-13 22:35:58 [error]: listOrders Error: OrderItem is not associated to Order! 
+2025-12-13 22:35:58 [error]: API List Orders Error: OrderItem is not associated to Order! 
+2025-12-13 22:35:58 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.listOrders (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:86:24)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:35:24 
+2025-12-13 22:40:02 [error]: decreaseStock Error: ProductNotFound 
+2025-12-13 22:40:02 [error]: createOrder Error: ProductNotFound 
+2025-12-13 22:40:02 [error]: API Create Order Error: ProductNotFound 
+2025-12-13 22:40:02 [error]: Unhandled Application Error: ProductNotFound 
+Stack: Error: ProductNotFound
+    at Object.decreaseStock (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\productService.js:46:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrder (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:35:33)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:131:23 
+2025-12-13 22:41:55 [error]: API Create Order Error: Transaction cannot be rolled back because it has been finished with state: commit 
+2025-12-13 22:41:55 [error]: Unhandled Application Error: Transaction cannot be rolled back because it has been finished with state: commit 
+Stack: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\transaction.js:59:13)
+    at Object.createOrder (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:74:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\api\orders.js:131:23 
+2025-12-13 22:43:35 [error]: getOrderById Error: OrderItem is not associated to Order! 
+2025-12-13 22:43:35 [error]: API Get Order Error: OrderItem is not associated to Order! 
+2025-12-13 22:43:35 [error]: Unhandled Application Error: OrderItem is not associated to Order! 
+Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
+    at Order._getIncludedAssociation (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:565:13)
+    at Order._validateIncludedElement (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Order._validateIncludedElements (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:417:39)
+    at Order.findAll (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Order.findOne (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1240:12)
+    at async Order.findByPk (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\node_modules\sequelize\lib\model.js:1221:12)
+    at async Object.getOrderById (C:\Users\ALP\Desktop\Dersler\Bilgisayar Mühendisliğinde Özel Konular\mini-crm\src\services\orderService.js:112:23) 
+2025-12-13 22:58:41 [error]: createOrder Error: column "order_id" of relation "orderItems" does not exist 
+2025-12-13 22:58:41 [error]: createCustomer Error: CustomerAlreadyExists: ID 220 
+2025-12-13 22:58:41 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:58:41 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:58:41 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:58:42 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 226 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 226 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 227 
+2025-12-13 22:58:42 [error]: createCustomer Error: CustomerAlreadyExists: ID 227 
+2025-12-13 22:58:42 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:59:43 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 22:59:43 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 22:59:43 [error]: createOrder Error: InsufficientStock 
+2025-12-13 22:59:44 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 238 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 238 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 239 
+2025-12-13 22:59:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 239 
+2025-12-13 22:59:44 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 23:04:00 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 23:04:00 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 23:04:00 [error]: createOrder Error: InsufficientStock 
+2025-12-13 23:04:01 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 248 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 248 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 249 
+2025-12-13 23:04:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 249 
+2025-12-13 23:04:01 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 23:07:43 [error]: createProduct Error: Validation error 
+2025-12-13 23:07:43 [error]: API Create Product Error: Validation error 

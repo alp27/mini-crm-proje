@@ -33,7 +33,7 @@ afterAll(async () => {
 
 describe('Order Service - Entegrasyon Testleri (Stok & Detaylar)', () => {
 
-    test('Senaryo 1: Guest kullanıcı sipariş verdiğinde Stok düşmeli ve Detaylar kaydedilmeli', async () => {
+    test('Senaryo 1: Guest kullanıcı sipariş verdiğinde Stok düşmeli, Detaylar kaydedilmeli VE listelenmeli', async () => {
         console.log('\n--- TEST 1: Tam Sipariş Akışı (Guest) ---');
         
         // A. Ürün Oluştur
@@ -68,7 +68,7 @@ describe('Order Service - Entegrasyon Testleri (Stok & Detaylar)', () => {
         createdIds.orders.push(order.id);
         createdIds.customers.push(order.customerId);
 
-        // C. Kontroller
+        // C. Kontroller (Create)
         expect(order).toHaveProperty('id');
         expect(parseFloat(order.totalAmount)).toBe(productPrice * buyQuantity);
         console.log(`✅ Sipariş Oluştu: ID ${order.id}, Tutar: ${order.totalAmount}`);
@@ -84,6 +84,21 @@ describe('Order Service - Entegrasyon Testleri (Stok & Detaylar)', () => {
         expect(items[0].productId).toBe(product.id);
         expect(parseFloat(items[0].unitPrice)).toBe(productPrice); 
         console.log(`✅ Detay Kontrolü: OrderItems tablosunda kayıt var.`);
+
+        // D. Yeni Kontrol: listOrders Çalışıyor mu?
+        const listedOrders = await orderService.listOrders({ customerId: order.customerId });
+        
+        // 1. Kontrol: Listede en az bir sipariş var mı?
+        expect(listedOrders.length).toBeGreaterThan(0);
+        
+        // 2. Kontrol: Çekilen siparişin detayları (ilişkileri) geldi mi?
+        const fetchedOrder = listedOrders.find(o => o.id === order.id);
+        expect(fetchedOrder).not.toBeNull();
+        expect(fetchedOrder.customer).toHaveProperty('firstName', 'Ali'); // Customer ilişkisi geldi mi?
+        expect(fetchedOrder.items.length).toBe(1);
+        expect(fetchedOrder.items[0].product).toHaveProperty('name', 'Entegrasyon Test Ürünü'); // Product ilişkisi geldi mi?
+        
+        console.log(`✅ listOrders Kontrolü: Sipariş ve tüm detayları (Customer, Product) başarıyla çekildi.`);
     });
 
     test('Senaryo 2: Aynı e-posta ile Guest siparişi verilirse hata fırlatmalı', async () => {
