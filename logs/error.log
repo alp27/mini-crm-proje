@@ -11,3 +11,17 @@
 2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 62 
 2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 63 
 2025-12-13 19:45:21 [error]: createCustomer Error: CustomerAlreadyExists: ID 63 
+2025-12-13 20:07:14 [error]: Unable to start server: database "mini_crm" does not exist 
+2025-12-13 20:07:32 [error]: Unable to start server: database "mini_crm" does not exist 
+2025-12-13 20:09:54 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:09:54 [error]: createCustomer Error: CustomerAlreadyExists: ID 65 
+2025-12-13 20:09:54 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:09:54 [error]: createCustomer Error: CustomerAlreadyExists: ID 65 
+2025-12-13 20:09:54 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:09:54 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:09:54 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:09:55 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 71 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 71 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 

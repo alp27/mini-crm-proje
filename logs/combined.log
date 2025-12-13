@@ -64,3 +64,46 @@
 2025-12-13 19:46:40 [warn]: Duplicate skipped: Esra Arslan (Phone: 5321112233) 
 2025-12-13 19:46:40 [warn]: Duplicate skipped: Muhammed Ak (Phone: 5321112233) 
 2025-12-13 19:46:40 [warn]: Duplicate skipped: Μ. Demir (Phone: 5321112233) 
+2025-12-13 20:07:14 [error]: Unable to start server: database "mini_crm" does not exist 
+2025-12-13 20:07:32 [error]: Unable to start server: database "mini_crm" does not exist 
+2025-12-13 20:09:13 [info]: Database connection has been established successfully. 
+2025-12-13 20:09:13 [info]: Server is running on port 3000 
+2025-12-13 20:09:54 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765645794326) - Stock: 100 
+2025-12-13 20:09:54 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765645794352) - Stock: 5 
+2025-12-13 20:09:54 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765645794352. Current: 5, Requested: 6 
+2025-12-13 20:09:54 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:09:54 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765645794369) - Stock: 0 
+2025-12-13 20:09:54 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765645794369. Skipping decrement. 
+2025-12-13 20:09:54 [info]: Product created: Test Ürün (SKU: GST-OK-1765645794733) - Stock: 100 
+2025-12-13 20:09:54 [info]: Customer created: ID 64 - Yeni 
+2025-12-13 20:09:54 [info]: Stock decreased: SKU GST-OK-1765645794733. New Stock: 98 (-2) 
+2025-12-13 20:09:54 [info]: Order created: ID 10 for Customer 64 - Total: 100 
+2025-12-13 20:09:54 [info]: Customer created: ID 65 - Mevcut 
+2025-12-13 20:09:54 [info]: Product created: Çakışma Testi Ürünü (SKU: CONFLICT-1765645794815) - Stock: 50 
+2025-12-13 20:09:54 [warn]: Create Customer Failed: Duplicate entry for existing.1765645794815@test.com or 5999999999 
+2025-12-13 20:09:54 [error]: createCustomer Error: CustomerAlreadyExists: ID 65 
+2025-12-13 20:09:54 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:09:54 [warn]: Create Customer Failed: Duplicate entry for existing.1765645794815@test.com or 5999999999 
+2025-12-13 20:09:54 [error]: createCustomer Error: CustomerAlreadyExists: ID 65 
+2025-12-13 20:09:54 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:09:54 [info]: Product created: Az Stoklu (SKU: LOW-STK-1765645794840) - Stock: 1 
+2025-12-13 20:09:54 [info]: Customer created: ID 66 - Stok 
+2025-12-13 20:09:54 [warn]: Insufficient Stock: SKU LOW-STK-1765645794840. Current: 1, Requested: 5 
+2025-12-13 20:09:54 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:09:54 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:09:55 [info]: Customer created: ID 67 - Jest 
+2025-12-13 20:09:55 [info]: Listed customers: Retrieved 44 records 
+2025-12-13 20:09:55 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:09:55 [info]: Customer created: ID 68 - TekİsimliMüşteri 
+2025-12-13 20:09:55 [info]: Customer created: ID 69 - Ahmet 
+2025-12-13 20:09:55 [info]: Customer created: ID 70 - Ahmet 
+2025-12-13 20:09:55 [info]: Customer created: ID 71 - Orjinal 
+2025-12-13 20:09:55 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765645795237@test.com or 5559998877 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 71 
+2025-12-13 20:09:55 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765645795237@test.com or 5559998877 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 71 
+2025-12-13 20:09:55 [info]: Customer created: ID 72 - Telefoncu 
+2025-12-13 20:09:55 [warn]: Create Customer Failed: Duplicate entry for tel2.1765645795249@test.com or 5321521971 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 
+2025-12-13 20:09:55 [warn]: Create Customer Failed: Duplicate entry for tel2.1765645795249@test.com or 5321521971 
+2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 
