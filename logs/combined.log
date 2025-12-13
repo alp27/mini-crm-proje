@@ -107,3 +107,379 @@
 2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 
 2025-12-13 20:09:55 [warn]: Create Customer Failed: Duplicate entry for tel2.1765645795249@test.com or 5321521971 
 2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 
+2025-12-13 20:43:31 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765647811823) - Stock: 100 
+2025-12-13 20:43:31 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765647811845) - Stock: 5 
+2025-12-13 20:43:31 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765647811845. Current: 5, Requested: 6 
+2025-12-13 20:43:31 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:43:31 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765647811864) - Stock: 0 
+2025-12-13 20:43:31 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765647811864. Skipping decrement. 
+2025-12-13 20:43:32 [info]: Customer created: ID 73 - Jest 
+2025-12-13 20:43:32 [info]: Listed customers: Retrieved 49 records 
+2025-12-13 20:43:32 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:43:32 [info]: Customer created: ID 74 - TekİsimliMüşteri 
+2025-12-13 20:43:32 [info]: Customer created: ID 75 - Ahmet 
+2025-12-13 20:43:32 [info]: Customer created: ID 76 - Ahmet 
+2025-12-13 20:43:32 [info]: Customer created: ID 77 - Orjinal 
+2025-12-13 20:43:32 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765647812413@test.com or 5559998877 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 77 
+2025-12-13 20:43:32 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765647812413@test.com or 5559998877 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 77 
+2025-12-13 20:43:32 [info]: Customer created: ID 78 - Telefoncu 
+2025-12-13 20:43:32 [warn]: Create Customer Failed: Duplicate entry for tel2.1765647812423@test.com or 5325215294 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 78 
+2025-12-13 20:43:32 [warn]: Create Customer Failed: Duplicate entry for tel2.1765647812423@test.com or 5325215294 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 78 
+2025-12-13 20:46:33 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765647993103) - Stock: 100 
+2025-12-13 20:46:33 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765647993130) - Stock: 5 
+2025-12-13 20:46:33 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765647993130. Current: 5, Requested: 6 
+2025-12-13 20:46:33 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:46:33 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765647993152) - Stock: 0 
+2025-12-13 20:46:33 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765647993152. Skipping decrement. 
+2025-12-13 20:46:33 [info]: Customer created: ID 79 - Jest 
+2025-12-13 20:46:33 [info]: Listed customers: Retrieved 54 records 
+2025-12-13 20:46:33 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:46:33 [info]: Customer created: ID 80 - TekİsimliMüşteri 
+2025-12-13 20:46:33 [info]: Customer created: ID 81 - Ahmet 
+2025-12-13 20:46:33 [info]: Customer created: ID 82 - Ahmet 
+2025-12-13 20:46:33 [info]: Customer created: ID 83 - Orjinal 
+2025-12-13 20:46:33 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765647993644@test.com or 5559998877 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 83 
+2025-12-13 20:46:33 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765647993644@test.com or 5559998877 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 83 
+2025-12-13 20:46:33 [info]: Customer created: ID 84 - Telefoncu 
+2025-12-13 20:46:33 [warn]: Create Customer Failed: Duplicate entry for tel2.1765647993656@test.com or 5321986593 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 84 
+2025-12-13 20:46:33 [warn]: Create Customer Failed: Duplicate entry for tel2.1765647993656@test.com or 5321986593 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 84 
+2025-12-13 20:46:34 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765647994182) - Stock: 100 
+2025-12-13 20:46:34 [info]: Customer created: ID 85 - Ali 
+2025-12-13 20:46:34 [info]: Stock decreased: SKU INT-TEST-1765647994182. New Stock: 98 (-2) 
+2025-12-13 20:46:34 [info]: Order created: ID 11 for Customer 85 - Total: 500 
+2025-12-13 20:46:34 [info]: Customer created: ID 86 - Mevcut 
+2025-12-13 20:46:34 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765647994282) - Stock: 10 
+2025-12-13 20:46:34 [warn]: Create Customer Failed: Duplicate entry for duplicate.1765647994282@test.com or 5999999999 
+2025-12-13 20:46:34 [error]: createCustomer Error: CustomerAlreadyExists: ID 86 
+2025-12-13 20:46:34 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:46:34 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765647994296) - Stock: 1 
+2025-12-13 20:46:34 [info]: Customer created: ID 87 - Stok 
+2025-12-13 20:46:34 [warn]: Insufficient Stock: SKU LOW-STK-1765647994296. Current: 1, Requested: 5 
+2025-12-13 20:46:34 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:46:34 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:52:55 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765648375418) - Stock: 100 
+2025-12-13 20:52:55 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765648375449) - Stock: 5 
+2025-12-13 20:52:55 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765648375449. Current: 5, Requested: 6 
+2025-12-13 20:52:55 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:52:55 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765648375470) - Stock: 0 
+2025-12-13 20:52:55 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765648375470. Skipping decrement. 
+2025-12-13 20:52:55 [info]: Customer created: ID 89 - Jest 
+2025-12-13 20:52:55 [info]: Listed customers: Retrieved 61 records 
+2025-12-13 20:52:55 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:52:55 [info]: Customer created: ID 90 - TekİsimliMüşteri 
+2025-12-13 20:52:55 [info]: Customer created: ID 91 - Ahmet 
+2025-12-13 20:52:55 [info]: Customer created: ID 92 - Ahmet 
+2025-12-13 20:52:55 [info]: Customer created: ID 93 - Orjinal 
+2025-12-13 20:52:55 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648375864@test.com or 5559998877 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 93 
+2025-12-13 20:52:55 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648375864@test.com or 5559998877 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 93 
+2025-12-13 20:52:55 [info]: Customer created: ID 94 - Telefoncu 
+2025-12-13 20:52:55 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648375872@test.com or 5326179364 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 94 
+2025-12-13 20:52:55 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648375872@test.com or 5326179364 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 94 
+2025-12-13 20:55:30 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765648530282) - Stock: 100 
+2025-12-13 20:55:30 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765648530315) - Stock: 5 
+2025-12-13 20:55:30 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765648530315. Current: 5, Requested: 6 
+2025-12-13 20:55:30 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:55:30 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765648530343) - Stock: 0 
+2025-12-13 20:55:30 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765648530343. Skipping decrement. 
+2025-12-13 20:55:30 [info]: Customer created: ID 96 - Jest 
+2025-12-13 20:55:30 [info]: Listed customers: Retrieved 66 records 
+2025-12-13 20:55:30 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:55:30 [info]: Customer created: ID 97 - TekİsimliMüşteri 
+2025-12-13 20:55:30 [info]: Customer created: ID 98 - Ahmet 
+2025-12-13 20:55:30 [info]: Customer created: ID 99 - Ahmet 
+2025-12-13 20:55:30 [info]: Customer created: ID 100 - Orjinal 
+2025-12-13 20:55:30 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648530842@test.com or 5559998877 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 100 
+2025-12-13 20:55:30 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648530842@test.com or 5559998877 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 100 
+2025-12-13 20:55:30 [info]: Customer created: ID 101 - Telefoncu 
+2025-12-13 20:55:30 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648530854@test.com or 5326529118 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 101 
+2025-12-13 20:55:30 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648530854@test.com or 5326529118 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 101 
+2025-12-13 20:56:32 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765648592898) - Stock: 100 
+2025-12-13 20:56:32 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765648592922) - Stock: 5 
+2025-12-13 20:56:32 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765648592922. Current: 5, Requested: 6 
+2025-12-13 20:56:32 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:56:32 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765648592940) - Stock: 0 
+2025-12-13 20:56:32 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765648592940. Skipping decrement. 
+2025-12-13 20:56:33 [info]: Customer created: ID 103 - Jest 
+2025-12-13 20:56:33 [info]: Listed customers: Retrieved 71 records 
+2025-12-13 20:56:33 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:56:33 [info]: Customer created: ID 104 - TekİsimliMüşteri 
+2025-12-13 20:56:33 [info]: Customer created: ID 105 - Ahmet 
+2025-12-13 20:56:33 [info]: Customer created: ID 106 - Ahmet 
+2025-12-13 20:56:33 [info]: Customer created: ID 107 - Orjinal 
+2025-12-13 20:56:33 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648593383@test.com or 5559998877 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 107 
+2025-12-13 20:56:33 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648593383@test.com or 5559998877 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 107 
+2025-12-13 20:56:33 [info]: Customer created: ID 108 - Telefoncu 
+2025-12-13 20:56:33 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648593393@test.com or 5327004896 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 108 
+2025-12-13 20:56:33 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648593393@test.com or 5327004896 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 108 
+2025-12-13 20:56:34 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765648594149) - Stock: 100 
+2025-12-13 20:56:34 [info]: Customer created: ID 110 - Ali 
+2025-12-13 20:56:34 [info]: Stock decreased: SKU INT-TEST-1765648594149. New Stock: 98 (-2) 
+2025-12-13 20:56:34 [info]: Order created: ID 16 for Customer 110 - Total: 500 
+2025-12-13 20:56:34 [info]: Customer created: ID 111 - Mevcut 
+2025-12-13 20:56:34 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765648594246) - Stock: 10 
+2025-12-13 20:56:34 [warn]: Create Customer Failed: Duplicate entry for duplicate.1765648594246@test.com or 5999999999 
+2025-12-13 20:56:34 [error]: createCustomer Error: CustomerAlreadyExists: ID 111 
+2025-12-13 20:56:34 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:56:34 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765648594256) - Stock: 1 
+2025-12-13 20:56:34 [info]: Customer created: ID 112 - Stok 
+2025-12-13 20:56:34 [warn]: Insufficient Stock: SKU LOW-STK-1765648594256. Current: 1, Requested: 5 
+2025-12-13 20:56:34 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:56:34 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:57:52 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765648672030) - Stock: 100 
+2025-12-13 20:57:52 [info]: Customer created: ID 113 - Ali 
+2025-12-13 20:57:52 [info]: Stock decreased: SKU INT-TEST-1765648672030. New Stock: 98 (-2) 
+2025-12-13 20:57:52 [info]: Order created: ID 17 for Customer 113 - Total: 500 
+2025-12-13 20:57:52 [info]: Customer created: ID 114 - Mevcut 
+2025-12-13 20:57:52 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765648672138) - Stock: 10 
+2025-12-13 20:57:52 [warn]: Create Customer Failed: Duplicate entry for duplicate.1765648672138@test.com or 5999999999 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 114 
+2025-12-13 20:57:52 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:57:52 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765648672153) - Stock: 1 
+2025-12-13 20:57:52 [info]: Customer created: ID 115 - Stok 
+2025-12-13 20:57:52 [warn]: Insufficient Stock: SKU LOW-STK-1765648672153. Current: 1, Requested: 5 
+2025-12-13 20:57:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:57:52 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:57:52 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765648672560) - Stock: 100 
+2025-12-13 20:57:52 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765648672568) - Stock: 5 
+2025-12-13 20:57:52 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765648672568. Current: 5, Requested: 6 
+2025-12-13 20:57:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:57:52 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765648672581) - Stock: 0 
+2025-12-13 20:57:52 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765648672581. Skipping decrement. 
+2025-12-13 20:57:52 [info]: Customer created: ID 116 - Jest 
+2025-12-13 20:57:52 [info]: Listed customers: Retrieved 80 records 
+2025-12-13 20:57:52 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:57:52 [info]: Customer created: ID 117 - TekİsimliMüşteri 
+2025-12-13 20:57:52 [info]: Customer created: ID 118 - Ahmet 
+2025-12-13 20:57:52 [info]: Customer created: ID 119 - Ahmet 
+2025-12-13 20:57:52 [info]: Customer created: ID 120 - Orjinal 
+2025-12-13 20:57:52 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648672964@test.com or 5559998877 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 120 
+2025-12-13 20:57:52 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648672964@test.com or 5559998877 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 120 
+2025-12-13 20:57:52 [info]: Customer created: ID 121 - Telefoncu 
+2025-12-13 20:57:52 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648672972@test.com or 5323100791 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 121 
+2025-12-13 20:57:52 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648672972@test.com or 5323100791 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 121 
+2025-12-13 21:00:16 [info]: Customer created: ID 123 - Jest 
+2025-12-13 21:00:16 [info]: Listed customers: Retrieved 1 records 
+2025-12-13 21:00:16 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:00:16 [info]: Customer created: ID 124 - TekİsimliMüşteri 
+2025-12-13 21:00:16 [info]: Customer created: ID 125 - Ahmet 
+2025-12-13 21:00:16 [info]: Customer created: ID 126 - Ahmet 
+2025-12-13 21:00:16 [info]: Customer created: ID 127 - Orjinal 
+2025-12-13 21:00:16 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648816922@test.com or 5559998877 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 127 
+2025-12-13 21:00:16 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648816922@test.com or 5559998877 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 127 
+2025-12-13 21:00:16 [info]: Customer created: ID 128 - Telefoncu 
+2025-12-13 21:00:16 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648816930@test.com or 5328386646 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 128 
+2025-12-13 21:00:16 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648816930@test.com or 5328386646 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 128 
+2025-12-13 21:00:17 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765648817274) - Stock: 100 
+2025-12-13 21:00:17 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765648817286) - Stock: 5 
+2025-12-13 21:00:17 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765648817286. Current: 5, Requested: 6 
+2025-12-13 21:00:17 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:00:17 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765648817297) - Stock: 0 
+2025-12-13 21:00:17 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765648817297. Skipping decrement. 
+2025-12-13 21:02:19 [info]: Customer created: ID 130 - Jest 
+2025-12-13 21:02:19 [info]: Listed customers: Retrieved 6 records 
+2025-12-13 21:02:19 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:02:19 [info]: Customer created: ID 131 - TekİsimliMüşteri 
+2025-12-13 21:02:19 [info]: Customer created: ID 132 - Ahmet 
+2025-12-13 21:02:19 [info]: Customer created: ID 133 - Ahmet 
+2025-12-13 21:02:19 [info]: Customer created: ID 134 - Orjinal 
+2025-12-13 21:02:19 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648939234@test.com or 5559998877 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 134 
+2025-12-13 21:02:19 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765648939234@test.com or 5559998877 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 134 
+2025-12-13 21:02:19 [info]: Customer created: ID 135 - Telefoncu 
+2025-12-13 21:02:19 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648939242@test.com or 5328457374 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 135 
+2025-12-13 21:02:19 [warn]: Create Customer Failed: Duplicate entry for tel2.1765648939242@test.com or 5328457374 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 135 
+2025-12-13 21:02:19 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765648939599) - Stock: 100 
+2025-12-13 21:02:19 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765648939619) - Stock: 5 
+2025-12-13 21:02:19 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765648939619. Current: 5, Requested: 6 
+2025-12-13 21:02:19 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:02:19 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765648939630) - Stock: 0 
+2025-12-13 21:02:19 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765648939630. Skipping decrement. 
+2025-12-13 21:02:20 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765648940353) - Stock: 100 
+2025-12-13 21:02:20 [info]: Customer created: ID 137 - Ali 
+2025-12-13 21:02:20 [info]: Stock decreased: SKU INT-TEST-1765648940353. New Stock: 98 (-2) 
+2025-12-13 21:02:20 [info]: Order created: ID 21 for Customer 137 - Total: 500 
+2025-12-13 21:02:20 [info]: Customer created: ID 138 - Mevcut 
+2025-12-13 21:02:20 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765648940449) - Stock: 10 
+2025-12-13 21:02:20 [warn]: Create Customer Failed: Duplicate entry for duplicate.1765648940449@test.com or 5999999999 
+2025-12-13 21:02:20 [error]: createCustomer Error: CustomerAlreadyExists: ID 138 
+2025-12-13 21:02:20 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:02:20 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765648940466) - Stock: 1 
+2025-12-13 21:02:20 [info]: Customer created: ID 139 - Stok 
+2025-12-13 21:02:20 [warn]: Insufficient Stock: SKU LOW-STK-1765648940466. Current: 1, Requested: 5 
+2025-12-13 21:02:20 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:02:20 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:03:44 [info]: Customer created: ID 140 - Jest 
+2025-12-13 21:03:44 [info]: Listed customers: Retrieved 13 records 
+2025-12-13 21:03:44 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:03:44 [info]: Customer created: ID 141 - TekİsimliMüşteri 
+2025-12-13 21:03:44 [info]: Customer created: ID 142 - Ahmet 
+2025-12-13 21:03:44 [info]: Customer created: ID 143 - Ahmet 
+2025-12-13 21:03:44 [info]: Customer created: ID 144 - Orjinal 
+2025-12-13 21:03:44 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649024445@test.com or 5559998877 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 144 
+2025-12-13 21:03:44 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649024445@test.com or 5559998877 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 144 
+2025-12-13 21:03:44 [info]: Customer created: ID 145 - Telefoncu 
+2025-12-13 21:03:44 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649024457@test.com or 5322057352 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 145 
+2025-12-13 21:03:44 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649024457@test.com or 5322057352 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 145 
+2025-12-13 21:03:44 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765649024810) - Stock: 100 
+2025-12-13 21:03:44 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765649024829) - Stock: 5 
+2025-12-13 21:03:44 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765649024829. Current: 5, Requested: 6 
+2025-12-13 21:03:44 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:03:44 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765649024842) - Stock: 0 
+2025-12-13 21:03:44 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765649024842. Skipping decrement. 
+2025-12-13 21:09:00 [info]: Customer created: ID 147 - Jest 
+2025-12-13 21:09:00 [info]: Listed customers: Retrieved 18 records 
+2025-12-13 21:09:00 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:09:01 [info]: Customer created: ID 148 - TekİsimliMüşteri 
+2025-12-13 21:09:01 [info]: Customer created: ID 149 - Ahmet 
+2025-12-13 21:09:01 [info]: Customer created: ID 150 - Ahmet 
+2025-12-13 21:09:01 [info]: Customer created: ID 151 - Orjinal 
+2025-12-13 21:09:01 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649341030@test.com or 5559998877 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 151 
+2025-12-13 21:09:01 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649341030@test.com or 5559998877 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 151 
+2025-12-13 21:09:01 [info]: Customer created: ID 152 - Telefoncu 
+2025-12-13 21:09:01 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649341040@test.com or 5324127220 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 152 
+2025-12-13 21:09:01 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649341040@test.com or 5324127220 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 152 
+2025-12-13 21:09:01 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765649341390) - Stock: 100 
+2025-12-13 21:09:01 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765649341400) - Stock: 5 
+2025-12-13 21:09:01 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765649341400. Current: 5, Requested: 6 
+2025-12-13 21:09:01 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:09:01 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765649341411) - Stock: 0 
+2025-12-13 21:09:01 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765649341411. Skipping decrement. 
+2025-12-13 21:11:44 [info]: Customer created: ID 154 - Jest 
+2025-12-13 21:11:44 [info]: Listed customers: Retrieved 23 records 
+2025-12-13 21:11:44 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:11:44 [info]: Customer created: ID 155 - TekİsimliMüşteri 
+2025-12-13 21:11:44 [info]: Customer created: ID 156 - Ahmet 
+2025-12-13 21:11:44 [info]: Customer created: ID 157 - Ahmet 
+2025-12-13 21:11:44 [info]: Customer created: ID 158 - Orjinal 
+2025-12-13 21:11:44 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649504536@test.com or 5559998877 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 158 
+2025-12-13 21:11:44 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649504536@test.com or 5559998877 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 158 
+2025-12-13 21:11:44 [info]: Customer created: ID 159 - Telefoncu 
+2025-12-13 21:11:44 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649504547@test.com or 5327962712 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 159 
+2025-12-13 21:11:44 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649504547@test.com or 5327962712 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 159 
+2025-12-13 21:11:44 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765649504908) - Stock: 100 
+2025-12-13 21:11:44 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765649504917) - Stock: 5 
+2025-12-13 21:11:44 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765649504917. Current: 5, Requested: 6 
+2025-12-13 21:11:44 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:11:44 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765649504930) - Stock: 0 
+2025-12-13 21:11:44 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765649504930. Skipping decrement. 
+2025-12-13 21:11:45 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765649505677) - Stock: 100 
+2025-12-13 21:11:45 [info]: Customer created: ID 161 - Ali 
+2025-12-13 21:11:45 [info]: Stock decreased: SKU INT-TEST-1765649505677. New Stock: 98 (-2) 
+2025-12-13 21:11:45 [info]: Order created: ID 25 for Customer 161 - Total: 500 
+2025-12-13 21:11:45 [info]: Customer created: ID 162 - Mevcut 
+2025-12-13 21:11:45 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765649505776) - Stock: 10 
+2025-12-13 21:11:45 [warn]: Create Customer Failed: Duplicate entry for duplicate.1765649505776@test.com or 5999999999 
+2025-12-13 21:11:45 [error]: createCustomer Error: CustomerAlreadyExists: ID 162 
+2025-12-13 21:11:45 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:11:45 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765649505786) - Stock: 1 
+2025-12-13 21:11:45 [info]: Customer created: ID 163 - Stok 
+2025-12-13 21:11:45 [warn]: Insufficient Stock: SKU LOW-STK-1765649505786. Current: 1, Requested: 5 
+2025-12-13 21:11:45 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:11:45 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:14:32 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765649671998) - Stock: 100 
+2025-12-13 21:14:32 [info]: Stock decreased: SKU INT-TEST-1765649671998. New Stock: 98 (-2) 
+2025-12-13 21:14:32 [info]: Order created: ID 26 for Customer 164 - Total: 500 
+2025-12-13 21:14:32 [info]: Customer created: ID 165 - Mevcut 
+2025-12-13 21:14:32 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765649672108) - Stock: 10 
+2025-12-13 21:14:32 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:14:32 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765649672162) - Stock: 1 
+2025-12-13 21:14:32 [warn]: Insufficient Stock: SKU LOW-STK-1765649672162. Current: 1, Requested: 5 
+2025-12-13 21:14:32 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:14:32 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:14:32 [info]: Customer created: ID 168 - Jest 
+2025-12-13 21:14:32 [info]: Listed customers: Retrieved 30 records 
+2025-12-13 21:14:32 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:14:32 [info]: Customer created: ID 169 - TekİsimliMüşteri 
+2025-12-13 21:14:32 [info]: Customer created: ID 170 - Ahmet 
+2025-12-13 21:14:32 [info]: Customer created: ID 171 - Ahmet 
+2025-12-13 21:14:32 [info]: Customer created: ID 172 - Orjinal 
+2025-12-13 21:14:32 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649672581@test.com or 5559998877 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 172 
+2025-12-13 21:14:32 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649672581@test.com or 5559998877 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 172 
+2025-12-13 21:14:32 [info]: Customer created: ID 173 - Telefoncu 
+2025-12-13 21:14:32 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649672589@test.com or 5325935269 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 173 
+2025-12-13 21:14:32 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649672589@test.com or 5325935269 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 173 
+2025-12-13 21:14:32 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765649672896) - Stock: 100 
+2025-12-13 21:14:32 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765649672912) - Stock: 5 
+2025-12-13 21:14:32 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765649672912. Current: 5, Requested: 6 
+2025-12-13 21:14:32 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:14:32 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765649672924) - Stock: 0 
+2025-12-13 21:14:32 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765649672924. Skipping decrement. 
+2025-12-13 21:16:26 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765649786665) - Stock: 100 
+2025-12-13 21:16:26 [info]: Stock decreased: SKU INT-TEST-1765649786665. New Stock: 98 (-2) 
+2025-12-13 21:16:26 [info]: Order created: ID 28 for Customer 175 - Total: 500 
+2025-12-13 21:16:26 [info]: Customer created: ID 176 - Mevcut 
+2025-12-13 21:16:26 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765649786760) - Stock: 10 
+2025-12-13 21:16:26 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:16:26 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765649786811) - Stock: 1 
+2025-12-13 21:16:26 [warn]: Insufficient Stock: SKU LOW-STK-1765649786811. Current: 1, Requested: 5 
+2025-12-13 21:16:26 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:16:26 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:16:27 [info]: Customer created: ID 179 - Jest 
+2025-12-13 21:16:27 [info]: Listed customers: Retrieved 35 records 
+2025-12-13 21:16:27 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:16:27 [info]: Customer created: ID 180 - TekİsimliMüşteri 
+2025-12-13 21:16:27 [info]: Customer created: ID 181 - Ahmet 
+2025-12-13 21:16:27 [info]: Customer created: ID 182 - Ahmet 
+2025-12-13 21:16:27 [info]: Customer created: ID 183 - Orjinal 
+2025-12-13 21:16:27 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649787275@test.com or 5559998877 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 183 
+2025-12-13 21:16:27 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765649787275@test.com or 5559998877 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 183 
+2025-12-13 21:16:27 [info]: Customer created: ID 184 - Telefoncu 
+2025-12-13 21:16:27 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649787284@test.com or 5327169693 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 184 
+2025-12-13 21:16:27 [warn]: Create Customer Failed: Duplicate entry for tel2.1765649787284@test.com or 5327169693 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 184 
+2025-12-13 21:16:27 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765649787596) - Stock: 100 
+2025-12-13 21:16:27 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765649787613) - Stock: 5 
+2025-12-13 21:16:27 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765649787613. Current: 5, Requested: 6 
+2025-12-13 21:16:27 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:16:27 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765649787623) - Stock: 0 
+2025-12-13 21:16:27 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765649787623. Skipping decrement. 

@@ -1,9 +1,9 @@
-const { Order, Customer, sequelize } = require('../models');
-const customerService = require('./customerService');
+const { Order, Customer, OrderItem, sequelize } = require('../models');
 const productService = require('./productService');
 const logger = require('../lib/logger');
 
 async function createOrder(payload) {
+    let isCommitted = false;
     const transaction = await sequelize.transaction();
 
     try {
@@ -11,14 +11,13 @@ async function createOrder(payload) {
 
         if (!customerId && payload.customer) {
             try {
-                const newCustomer = await customerService.createCustomer(payload.customer);
+                const newCustomer = await Customer.create(payload.customer, { transaction });
                 customerId = newCustomer.id;
             } catch (error) {
-                if (error.message.includes('CustomerAlreadyExists')) {
+                if (error.name === 'SequelizeUniqueConstraintError') {
                     throw new Error('CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz.');
-                } else {
-                    throw error;
                 }
+                throw error;
             }
         }
 
@@ -27,12 +26,20 @@ async function createOrder(payload) {
         }
 
         let totalAmount = 0;
-        
+        const orderItemsData = []; 
+
         if (payload.items && payload.items.length > 0) {
             for (const item of payload.items) {
                 const product = await productService.decreaseStock(item.productId, item.quantity);
-                const price = item.unitPrice || product.price;
-                totalAmount += price * item.quantity;
+                
+                const currentPrice = item.unitPrice ? parseFloat(item.unitPrice) : parseFloat(product.price);
+                totalAmount += currentPrice * item.quantity;
+
+                orderItemsData.push({
+                    productId: item.productId,
+                    quantity: item.quantity,
+                    unitPrice: currentPrice 
+                });
             }
         } else if (payload.totalAmount) {
              totalAmount = payload.totalAmount;
@@ -44,12 +51,28 @@ async function createOrder(payload) {
             status: payload.status || 'PENDING'
         }, { transaction });
 
+        let itemsWithOrderId = [];
+        if (orderItemsData.length > 0) {
+            itemsWithOrderId = orderItemsData.map(item => ({
+                ...item,
+                orderId: order.id
+            }));
+            
+            await OrderItem.bulkCreate(itemsWithOrderId, { transaction });
+        }
+
         await transaction.commit();
+        isCommitted = true;
+        
         logger.info(`Order created: ID ${order.id} for Customer ${customerId} - Total: ${totalAmount}`);
+        
+        order.dataValues.items = itemsWithOrderId; 
         return order;
 
     } catch (error) {
-        await transaction.rollback();
+        if (!isCommitted && !transaction.finished) {
+            await transaction.rollback();
+        }
         logger.error(`createOrder Error: ${error.message}`);
         throw error;
     }
@@ -63,10 +86,17 @@ async function listOrders(filter = {}) {
 
         const orders = await Order.findAll({
             where,
-            include: [{
-                model: Customer,
-                as: 'customer'
-            }],
+            include: [
+                { 
+                    model: Customer, 
+                    as: 'customer' 
+                },
+                { 
+                    model: OrderItem, 
+                    as: 'items',
+                    include: ['product'] 
+                }
+            ],
             order: [['createdAt', 'DESC']]
         });
         
@@ -81,7 +111,10 @@ async function listOrders(filter = {}) {
 async function getOrderById(id) {
     try {
         const order = await Order.findByPk(id, {
-            include: [{ model: Customer, as: 'customer' }]
+            include: [
+                { model: Customer, as: 'customer' },
+                { model: OrderItem, as: 'items', include: ['product'] }
+            ]
         });
         
         if (!order) {
@@ -123,7 +156,6 @@ async function deleteOrder(id) {
             logger.warn(`Delete Order Failed: ID ${id} not found`);
             return null;
         }
-
         await order.destroy();
         logger.info(`Order deleted: ID ${id}`);
         return true;

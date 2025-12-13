@@ -25,3 +25,107 @@
 2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 71 
 2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 
 2025-12-13 20:09:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 72 
+2025-12-13 20:43:31 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:43:32 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 77 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 77 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 78 
+2025-12-13 20:43:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 78 
+2025-12-13 20:46:33 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:46:33 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 83 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 83 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 84 
+2025-12-13 20:46:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 84 
+2025-12-13 20:46:34 [error]: createCustomer Error: CustomerAlreadyExists: ID 86 
+2025-12-13 20:46:34 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:46:34 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:46:34 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:52:55 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:52:55 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 93 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 93 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 94 
+2025-12-13 20:52:55 [error]: createCustomer Error: CustomerAlreadyExists: ID 94 
+2025-12-13 20:55:30 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:55:30 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 100 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 100 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 101 
+2025-12-13 20:55:30 [error]: createCustomer Error: CustomerAlreadyExists: ID 101 
+2025-12-13 20:56:32 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:56:33 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 107 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 107 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 108 
+2025-12-13 20:56:33 [error]: createCustomer Error: CustomerAlreadyExists: ID 108 
+2025-12-13 20:56:34 [error]: createCustomer Error: CustomerAlreadyExists: ID 111 
+2025-12-13 20:56:34 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:56:34 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:56:34 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 114 
+2025-12-13 20:57:52 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 20:57:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:57:52 [error]: createOrder Error: InsufficientStock 
+2025-12-13 20:57:52 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 20:57:52 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 120 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 120 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 121 
+2025-12-13 20:57:52 [error]: createCustomer Error: CustomerAlreadyExists: ID 121 
+2025-12-13 21:00:16 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 127 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 127 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 128 
+2025-12-13 21:00:16 [error]: createCustomer Error: CustomerAlreadyExists: ID 128 
+2025-12-13 21:00:17 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:02:19 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 134 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 134 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 135 
+2025-12-13 21:02:19 [error]: createCustomer Error: CustomerAlreadyExists: ID 135 
+2025-12-13 21:02:19 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:02:20 [error]: createCustomer Error: CustomerAlreadyExists: ID 138 
+2025-12-13 21:02:20 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:02:20 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:02:20 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:03:44 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 144 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 144 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 145 
+2025-12-13 21:03:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 145 
+2025-12-13 21:03:44 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:09:00 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 151 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 151 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 152 
+2025-12-13 21:09:01 [error]: createCustomer Error: CustomerAlreadyExists: ID 152 
+2025-12-13 21:09:01 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:11:44 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 158 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 158 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 159 
+2025-12-13 21:11:44 [error]: createCustomer Error: CustomerAlreadyExists: ID 159 
+2025-12-13 21:11:44 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:11:45 [error]: createCustomer Error: CustomerAlreadyExists: ID 162 
+2025-12-13 21:11:45 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:11:45 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:11:45 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:14:32 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:14:32 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:14:32 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:14:32 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 172 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 172 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 173 
+2025-12-13 21:14:32 [error]: createCustomer Error: CustomerAlreadyExists: ID 173 
+2025-12-13 21:14:32 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:16:26 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-13 21:16:26 [error]: decreaseStock Error: InsufficientStock 
+2025-12-13 21:16:26 [error]: createOrder Error: InsufficientStock 
+2025-12-13 21:16:27 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 183 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 183 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 184 
+2025-12-13 21:16:27 [error]: createCustomer Error: CustomerAlreadyExists: ID 184 
+2025-12-13 21:16:27 [error]: decreaseStock Error: InsufficientStock 
