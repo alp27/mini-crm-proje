@@ -81,7 +81,7 @@ router.get('/:id', async (req, res, next) => {
  * @swagger
  * /api/orders:
  *   post:
- *     summary: Yeni sipariş oluşturur (Stok düşme ve Transaction içerir)
+ *     summary: Yeni sipariş oluşturur. Var olan ürün ve customer ID giriniz. Stok Kontrolü yapılır.
  *     tags: [Orders]
  *     requestBody:
  *       required: true
