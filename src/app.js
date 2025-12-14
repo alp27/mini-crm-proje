@@ -16,6 +16,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/', (req, res) => {
+  res.redirect('/api-docs');
+});
+
 app.use('/api/customers', customersRouter);
 app.use('/api/products', productsRouter);
 app.use('/api/orders', ordersRouter);

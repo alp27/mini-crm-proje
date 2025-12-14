@@ -7,16 +7,16 @@ Bu proje, küçük bir e-ticaret firmasının müşteri ve sipariş yönetimi i�
 ## Durum
 
 > Proje tamamlanmıştır.  
-> API uçları, testler, loglama ve migration yapısı **tamamlanmıştır**.
+> API uçları, testler, loglama ve migration yapısı tamamlanmıştır.
 
 ## Proje Özellikleri
 
-* **Katmanlı Mimari:** Router, Controller, Service ve Data Access (Model) katmanları ile temiz kod yapısı.
-* **İlişkisel Veritabanı:** Sequelize ORM kullanılarak Müşteri-Sipariş-Ürün arasında kurulan güçlü ilişkiler.
+* **Katmanlı Mimari:** Router, Service ve Data Access (Model) katmanları ile temiz kod yapısı.
+* **İlişkisel Veritabanı:** Sequelize ORM kullanılarak Müşteri-Sipariş-Ürün arasında kurulan ilişkiler.
 * **Transaction Yönetimi:** Sipariş oluşturma işlemlerinde stok düşüşü ve sipariş kaydının atomik olarak yapılması (Başarısızlık durumunda Rollback).
 * **ETL Entegrasyonu:** Dış kaynaklardan (CSV/Excel) gelen ham verilerin temizlenerek sisteme aktarılması.
 * **Otomatik Testler:** Jest ile yazılmış Birim (Unit) ve Entegrasyon testleri.
-* **CI/CD:** GitHub Actions ile her kod gönderiminde çalışan otomatik test ve kontrol süreçleri.
+* **CI/CD:** GitHub Actions ile her kod gönderiminde çalışan otomatik test ve kontrol süreçleri. **(Postresql github kurulu olmadığı için senkronize çalışmıyor. Sadece localde)**
 * **API Dokümantasyonu:** Swagger (OpenAPI) ile interaktif uç nokta kılavuzu.
 * **Kod Kalitesi:** ESLint ve Prettier ile proje genelinde kod standardizasyonu.
 
@@ -29,7 +29,7 @@ Bu proje, küçük bir e-ticaret firmasının müşteri ve sipariş yönetimi i�
 * **Test:** Jest, Supertest, Cross-Env
 * **Araçlar:** Swagger UI, Winston Logger, Dotenv
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 ```text
 MINI-CRM/
@@ -69,12 +69,12 @@ MINI-CRM/
 ## API Dökümantasyounu
 Proje çalışır durumdayken, tüm API uç noktalarını test etmek ve detaylarını görmek için tarayıcınızda şu adrese gidin:
 
-Swagger UI: http://localhost:3000/api-docs
+Swagger UI: **http://localhost:3000/api-docs**
 
 ## Kurulum (eksik)
 
 ```bash
-git clone https://github.com/alp27/min-crm-proje.git
+git clone https://github.com/alp27/mini-crm-proje.git
 npm run setup
 npm install
 npm run dev

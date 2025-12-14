@@ -1,7 +1,7 @@
 {
   "name": "mini-crm",
   "version": "0.1.0",
-  "description": "MiniCRM - Yarım kalmış müşteri ve sipariş yönetim sistemi (senaryo için).",
+  "description": "MiniCRM müşteri ve sipariş yönetim sistemi (senaryo için).",
   "main": "src/server.js",
  "scripts": {
     "start": "node src/server.js",
