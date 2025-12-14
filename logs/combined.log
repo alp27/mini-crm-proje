@@ -1391,3 +1391,15 @@ Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
 2025-12-14 15:00:28 [error]: decreaseStock Error: InsufficientStock 
 2025-12-14 15:00:28 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765713628132) - Stock: 0 
 2025-12-14 15:00:28 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765713628132. Skipping decrement. 
+2025-12-14 15:44:57 [info]: Database connection has been established successfully. 
+2025-12-14 15:44:57 [info]: Server is running on port 3000 
+2025-12-14 15:45:08 [info]: Incoming Request: GET /api/orders 
+2025-12-14 15:45:08 [info]: Listed orders: Retrieved 0 records 
+2025-12-14 15:45:10 [info]: Incoming Request: GET / 
+2025-12-14 15:45:14 [info]: Incoming Request: GET /api-docs/ 
+2025-12-14 15:45:14 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-14 15:45:14 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-14 15:45:14 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-14 15:45:14 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-14 15:45:19 [info]: Incoming Request: GET /api/customers 
+2025-12-14 15:45:19 [info]: Listed customers: Retrieved 81 records 
