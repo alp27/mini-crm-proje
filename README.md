@@ -29,6 +29,32 @@ Bu proje, küçük bir e-ticaret firmasının müşteri ve sipariş yönetimi i�
 * **Test:** Jest, Supertest, Cross-Env
 * **Araçlar:** Swagger UI, Winston Logger, Dotenv
 
+## 📂 Proje Yapısı
+
+```text
+MINI-CRM/
+├── .github/workflows/   # CI/CD (GitHub Actions) konfigürasyonu
+├── coverage/            # Test kapsam raporları (npm run test:coverage ile oluşur)
+├── logs/                # Uygulama hata ve bilgi logları
+├── migrations/          # Veritabanı şema değişim dosyaları (Sequelize)
+├── scripts/             # ETL ve veri yükleme scriptleri
+├── src/                 # Ana uygulama kaynak kodları
+│   ├── api/             # API rotaları ve Controller yapıları
+│   ├── config/          # Veritabanı bağlantı ayarları
+│   ├── lib/             # Yardımcı modüller (Logger, Validasyon vb.)
+│   ├── models/          # Veritabanı tablolarını temsil eden modeller
+│   ├── services/        # İş mantığı katmanı (Business Logic)
+│   ├── app.js           # Express uygulamasının yapılandırılması
+│   └── server.js        # Sunucunun başlatıldığı giriş dosyası
+├── tests/               # Birim (Unit) ve Entegrasyon testleri
+├── .env                 # Hassas ortam değişkenleri (Port, DB Şifresi)
+├── .eslintrc.json       # Kod yazım standartı kuralları
+├── .prettierrc          # Kod formatlama (düzenleme) ayarları
+├── customers.csv        # ETL işlemi için kullanılan ham veri dosyası
+├── package.json         # Proje bağımlılıkları ve çalıştırma komutları
+└── README.md            # Proje dokümantasyonu
+```
+
 ## ETL Nasıl Çalıştırılır?
 
 1. Kök dizinde `customers.csv` dosyasının bulunduğundan emin olun.
