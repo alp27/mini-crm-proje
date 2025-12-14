@@ -461,3 +461,13 @@ Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
 2025-12-13 23:04:01 [error]: decreaseStock Error: InsufficientStock 
 2025-12-13 23:07:43 [error]: createProduct Error: Validation error 
 2025-12-13 23:07:43 [error]: API Create Product Error: Validation error 
+2025-12-14 14:50:56 [error]: createProduct Error: SequelizeUniqueConstraintError 
+2025-12-14 14:50:57 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-14 14:50:57 [error]: decreaseStock Error: InsufficientStock 
+2025-12-14 14:50:57 [error]: createOrder Error: InsufficientStock 
+2025-12-14 14:50:57 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 259 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 259 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 260 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 260 
+2025-12-14 14:50:58 [error]: decreaseStock Error: InsufficientStock 

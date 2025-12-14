@@ -1321,3 +1321,38 @@ Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
 2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
 2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
 2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 
+2025-12-14 14:50:56 [info]: Product created: Test Ürün (SKU: TST-001) - Stock: undefined 
+2025-12-14 14:50:56 [error]: createProduct Error: SequelizeUniqueConstraintError 
+2025-12-14 14:50:57 [info]: Product created: Entegrasyon Test Ürünü (SKU: INT-TEST-1765713057039) - Stock: 100 
+2025-12-14 14:50:57 [info]: Stock decreased: SKU INT-TEST-1765713057039. New Stock: 98 (-2) 
+2025-12-14 14:50:57 [info]: Order created: ID 43 for Customer 251 - Total: 500 
+2025-12-14 14:50:57 [info]: Listed orders: Retrieved 1 records 
+2025-12-14 14:50:57 [info]: Customer created: ID 252 - Mevcut 
+2025-12-14 14:50:57 [info]: Product created: Dummy Ürün (SKU: DUMMY-1765713057157) - Stock: 10 
+2025-12-14 14:50:57 [error]: createOrder Error: CustomerAlreadyExists: Bu e-posta ile kayıtlı müşteri bulunmaktadır. Lütfen mevcut müşteriyi seçerek devam ediniz. 
+2025-12-14 14:50:57 [info]: Product created: Kritik Stok (SKU: LOW-STK-1765713057259) - Stock: 1 
+2025-12-14 14:50:57 [warn]: Insufficient Stock: SKU LOW-STK-1765713057259. Current: 1, Requested: 5 
+2025-12-14 14:50:57 [error]: decreaseStock Error: InsufficientStock 
+2025-12-14 14:50:57 [error]: createOrder Error: InsufficientStock 
+2025-12-14 14:50:57 [info]: Customer created: ID 255 - Jest 
+2025-12-14 14:50:57 [info]: Listed customers: Retrieved 72 records 
+2025-12-14 14:50:57 [error]: createCustomer Error: notNull Violation: Customer.firstName cannot be null 
+2025-12-14 14:50:57 [info]: Customer created: ID 256 - TekİsimliMüşteri 
+2025-12-14 14:50:57 [info]: Customer created: ID 257 - Ahmet 
+2025-12-14 14:50:57 [info]: Customer created: ID 258 - Ahmet 
+2025-12-14 14:50:57 [info]: Customer created: ID 259 - Orjinal 
+2025-12-14 14:50:57 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765713057719@test.com or 5559998877 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 259 
+2025-12-14 14:50:57 [warn]: Create Customer Failed: Duplicate entry for duplicate.email.1765713057719@test.com or 5559998877 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 259 
+2025-12-14 14:50:57 [info]: Customer created: ID 260 - Telefoncu 
+2025-12-14 14:50:57 [warn]: Create Customer Failed: Duplicate entry for tel2.1765713057730@test.com or 5327785677 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 260 
+2025-12-14 14:50:57 [warn]: Create Customer Failed: Duplicate entry for tel2.1765713057730@test.com or 5327785677 
+2025-12-14 14:50:57 [error]: createCustomer Error: CustomerAlreadyExists: ID 260 
+2025-12-14 14:50:58 [info]: Product created: Esnek Fiyatlı Ürün (SKU: SKU-PRICE-1765713058103) - Stock: 100 
+2025-12-14 14:50:58 [info]: Product created: Stoklu Ürün (SKU: SKU-TRACK-ON-1765713058111) - Stock: 5 
+2025-12-14 14:50:58 [warn]: Insufficient Stock: SKU SKU-TRACK-ON-1765713058111. Current: 5, Requested: 6 
+2025-12-14 14:50:58 [error]: decreaseStock Error: InsufficientStock 
+2025-12-14 14:50:58 [info]: Product created: Hizmet Ürünü (Stoksuz) (SKU: SKU-TRACK-OFF-1765713058126) - Stock: 0 
+2025-12-14 14:50:58 [info]: Stock tracking disabled for product SKU-TRACK-OFF-1765713058126. Skipping decrement. 
