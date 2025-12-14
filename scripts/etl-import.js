@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
-const { Customer, sequelize } = require('../src/models'); 
+const { Customer, sequelize } = require('../src/models');
 const logger = require('../src/lib/logger');
 
 const csvFilePath = path.join(__dirname, '../customers.csv');
@@ -9,17 +9,17 @@ const csvFilePath = path.join(__dirname, '../customers.csv');
 function cleanPhone(phone) {
   if (!phone) return null;
   let cleaned = phone.replace(/\D/g, '');
-  
+
   if (cleaned.startsWith('90')) cleaned = cleaned.slice(2);
   if (cleaned.startsWith('0')) cleaned = cleaned.slice(1);
-  
+
   return cleaned.length === 10 ? cleaned : null;
 }
 
 function isValidEmail(email) {
-    if (!email) return false;
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
+  if (!email) return false;
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
 }
 
 async function importData() {
@@ -28,7 +28,7 @@ async function importData() {
     total: 0,
     success: 0,
     duplicate: 0,
-    invalid: 0
+    invalid: 0,
   };
 
   logger.info('ETL Import Process Started via CSV...');
@@ -36,36 +36,44 @@ async function importData() {
   try {
     await sequelize.authenticate();
     fs.createReadStream(csvFilePath)
-      .pipe(csv({
-        separator: ';', 
-        mapHeaders: ({ header }) => header.trim().replace(/^\ufeff/, '')
-      }))
+      .pipe(
+        csv({
+          separator: ';',
+          mapHeaders: ({ header }) => header.trim().replace(/^\ufeff/, ''),
+        })
+      )
       .on('data', (data) => results.push(data))
       .on('end', async () => {
-        
-        for (const row of results) {   
+        for (const row of results) {
           stats.total++;
-          let firstName = row['Ad'] ? row['Ad'].trim().replace(/"/g, '') : 'Bilinmiyor';
+          let firstName = row['Ad']
+            ? row['Ad'].trim().replace(/"/g, '')
+            : 'Bilinmiyor';
           let lastName = row['Soyad'] ? row['Soyad'].trim() : null;
-          
+
           let rawPhone = row['Telefon'];
           let cleanPhoneNumber = cleanPhone(rawPhone);
 
-          let email = row['Email'] && isValidEmail(row['Email']) ? row['Email'].trim() : null;
-          
+          let email =
+            row['Email'] && isValidEmail(row['Email'])
+              ? row['Email'].trim()
+              : null;
+
           const existingCustomer = await Customer.findOne({
             where: {
               [sequelize.Sequelize.Op.or]: [
                 cleanPhoneNumber ? { phone: cleanPhoneNumber } : null,
-                email ? { email: email } : null
-              ].filter(val => val !== null) 
-            }
+                email ? { email: email } : null,
+              ].filter((val) => val !== null),
+            },
           });
 
           if (existingCustomer) {
-            logger.warn(`Duplicate skipped: ${firstName} ${lastName || ''} (Phone: ${cleanPhoneNumber})`);
+            logger.warn(
+              `Duplicate skipped: ${firstName} ${lastName || ''} (Phone: ${cleanPhoneNumber})`
+            );
             stats.duplicate++;
-            continue; 
+            continue;
           }
 
           try {
@@ -75,7 +83,7 @@ async function importData() {
               phone: cleanPhoneNumber,
               email: email,
               address: row['Adres'] || null,
-              isActive: true
+              isActive: true,
             });
             logger.info(`Customer imported: ${firstName} ${lastName || ''}`);
             stats.success++;
@@ -86,10 +94,11 @@ async function importData() {
         }
 
         console.table(stats);
-        logger.info(`ETL Completed. Stats: Success=${stats.success}, Duplicate=${stats.duplicate}, Invalid=${stats.invalid}`);
+        logger.info(
+          `ETL Completed. Stats: Success=${stats.success}, Duplicate=${stats.duplicate}, Invalid=${stats.invalid}`
+        );
         process.exit();
       });
-
   } catch (error) {
     logger.error(`Critical ETL Error: ${error.message}`);
     process.exit(1);

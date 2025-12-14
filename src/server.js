@@ -12,7 +12,6 @@ async function start() {
     app.listen(PORT, () => {
       logger.info(`Server is running on port ${PORT}`);
     });
-
   } catch (err) {
     logger.error(`Unable to start server: ${err.message}`);
     process.exit(1);

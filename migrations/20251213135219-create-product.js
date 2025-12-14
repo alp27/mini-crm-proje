@@ -7,44 +7,44 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       name: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: false,
       },
       sku: {
         type: Sequelize.STRING,
         allowNull: false,
-        unique: true 
+        unique: true,
       },
       stock: {
         type: Sequelize.INTEGER,
-        defaultValue: 0
+        defaultValue: 0,
       },
       price: {
         type: Sequelize.DECIMAL(10, 2),
-        allowNull: false
+        allowNull: false,
       },
-      is_stock_tracking: { 
+      is_stock_tracking: {
         type: Sequelize.BOOLEAN,
-        defaultValue: true
+        defaultValue: true,
       },
       price_metadata: {
         type: Sequelize.JSON,
-        defaultValue: {}
+        defaultValue: {},
       },
       created_at: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updated_at: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('products');
-  }
+  },
 };

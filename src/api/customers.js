@@ -104,7 +104,9 @@ router.post('/', async (req, res, next) => {
   try {
     const { firstName } = req.body;
     if (!firstName || firstName.trim() === '') {
-      return res.status(400).json({ error: 'Müşteri adı (firstName) zorunludur.' });
+      return res
+        .status(400)
+        .json({ error: 'Müşteri adı (firstName) zorunludur.' });
     }
 
     const customer = await customerService.createCustomer(req.body);
@@ -113,7 +115,11 @@ router.post('/', async (req, res, next) => {
     logger.error('Error creating customer', { err });
 
     if (err.name === 'SequelizeUniqueConstraintError') {
-      return res.status(400).json({ error: 'Bu telefon numarası veya e-posta adresi zaten kayıtlı.' });
+      return res
+        .status(400)
+        .json({
+          error: 'Bu telefon numarası veya e-posta adresi zaten kayıtlı.',
+        });
     }
     next(err);
   }
@@ -152,7 +158,10 @@ router.post('/', async (req, res, next) => {
  */
 router.put('/:id', async (req, res, next) => {
   try {
-    const updatedCustomer = await customerService.updateCustomer(req.params.id, req.body);
+    const updatedCustomer = await customerService.updateCustomer(
+      req.params.id,
+      req.body
+    );
     if (!updatedCustomer) {
       return res.status(404).json({ error: 'Müşteri bulunamadı' });
     }

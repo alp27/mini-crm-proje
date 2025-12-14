@@ -1311,3 +1311,13 @@ Stack: SequelizeEagerLoadingError: OrderItem is not associated to Order!
 2025-12-13 23:09:41 [info]: Order deleted: ID 36 
 2025-12-13 23:10:36 [info]: Incoming Request: GET /api/orders 
 2025-12-13 23:10:36 [info]: Listed orders: Retrieved 0 records 
+2025-12-14 13:08:42 [info]: Database connection has been established successfully. 
+2025-12-14 13:08:42 [info]: Server is running on port 3000 
+2025-12-14 13:17:06 [info]: Incoming Request: GET /api/orders 
+2025-12-14 13:17:06 [info]: Listed orders: Retrieved 0 records 
+2025-12-14 13:17:06 [info]: Incoming Request: GET /favicon.ico 
+2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/ 
+2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/swagger-ui.css 
+2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/swagger-ui-bundle.js 
+2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/swagger-ui-standalone-preset.js 
+2025-12-14 13:17:11 [info]: Incoming Request: GET /api-docs/swagger-ui-init.js 

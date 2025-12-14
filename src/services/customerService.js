@@ -14,7 +14,7 @@ async function listCustomers() {
   try {
     const customers = await Customer.findAll({
       order: [['createdAt', 'DESC']],
-      limit: 100
+      limit: 100,
     });
     logger.info(`Listed customers: Retrieved ${customers.length} records`);
     return customers;
@@ -50,12 +50,14 @@ async function createCustomer(payload) {
     if (checks.length > 0) {
       const existingCustomer = await Customer.findOne({
         where: {
-          [Op.or]: checks
-        }
+          [Op.or]: checks,
+        },
       });
 
       if (existingCustomer) {
-        logger.warn(`Create Customer Failed: Duplicate entry for ${payload.email} or ${payload.phone}`);
+        logger.warn(
+          `Create Customer Failed: Duplicate entry for ${payload.email} or ${payload.phone}`
+        );
         throw new Error(`CustomerAlreadyExists: ID ${existingCustomer.id}`);
       }
     }
@@ -83,7 +85,7 @@ async function updateCustomer(id, payload) {
 
     await customer.update(payload);
     logger.info(`Customer updated: ID ${id}`);
-    
+
     return customer;
   } catch (error) {
     logger.error(`updateCustomer Error: ${error.message}`);
@@ -101,7 +103,7 @@ async function deleteCustomer(id) {
 
     await customer.destroy();
     logger.info(`Customer deleted: ID ${id}`);
-    
+
     return true;
   } catch (error) {
     logger.error(`deleteCustomer Error: ${error.message}`);
@@ -114,5 +116,5 @@ module.exports = {
   getCustomerById,
   createCustomer,
   updateCustomer,
-  deleteCustomer
+  deleteCustomer,
 };

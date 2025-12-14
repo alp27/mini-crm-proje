@@ -7,40 +7,46 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       customer_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
           model: 'customers', // Veritabanındaki tablo adı
-          key: 'id'
+          key: 'id',
         },
         onUpdate: 'CASCADE',
-        onDelete: 'CASCADE' // Müşteri silinirse siparişleri de silinsin (veya SET NULL yapılabilir)
+        onDelete: 'CASCADE', // Müşteri silinirse siparişleri de silinsin (veya SET NULL yapılabilir)
       },
       status: {
-        type: Sequelize.ENUM('PENDING', 'PREPARING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+        type: Sequelize.ENUM(
+          'PENDING',
+          'PREPARING',
+          'SHIPPED',
+          'DELIVERED',
+          'CANCELLED'
+        ),
         allowNull: false,
-        defaultValue: 'PENDING'
+        defaultValue: 'PENDING',
       },
       total_amount: {
         type: Sequelize.DECIMAL(10, 2),
         allowNull: false,
-        defaultValue: 0.00
+        defaultValue: 0.0,
       },
       created_at: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updated_at: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
 
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('orders');
-  }
+  },
 };

@@ -22,8 +22,12 @@ app.use('/api/orders', ordersRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use((err, req, res, next) => {
-  logger.error(`Unhandled Application Error: ${err.message} \nStack: ${err.stack}`);
-  res.status(500).json({ error: 'Sunucu tarafında beklenmeyen bir hata oluştu.' });
+  logger.error(
+    `Unhandled Application Error: ${err.message} \nStack: ${err.stack}`
+  );
+  res
+    .status(500)
+    .json({ error: 'Sunucu tarafında beklenmeyen bir hata oluştu.' });
 });
 
 module.exports = app;

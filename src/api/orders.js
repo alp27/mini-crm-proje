@@ -29,13 +29,13 @@ const logger = require('../lib/logger');
  *         description: Sunucu hatası
  */
 router.get('/', async (req, res, next) => {
-    try {
-        const orders = await orderService.listOrders();
-        res.json(orders);
-    } catch (err) {
-        logger.error(`API List Orders Error: ${err.message}`);
-        next(err);
-    }
+  try {
+    const orders = await orderService.listOrders();
+    res.json(orders);
+  } catch (err) {
+    logger.error(`API List Orders Error: ${err.message}`);
+    next(err);
+  }
 });
 
 /**
@@ -64,17 +64,17 @@ router.get('/', async (req, res, next) => {
  *         description: Sunucu hatası
  */
 router.get('/:id', async (req, res, next) => {
-    try {
-        const order = await orderService.getOrderById(req.params.id);
-        if (!order) {
-            logger.warn(`API Get Order: Order ${req.params.id} not found`);
-            return res.status(404).json({ error: 'Sipariş bulunamadı' });
-        }
-        res.json(order);
-    } catch (err) {
-        logger.error(`API Get Order Error: ${err.message}`);
-        next(err);
+  try {
+    const order = await orderService.getOrderById(req.params.id);
+    if (!order) {
+      logger.warn(`API Get Order: Order ${req.params.id} not found`);
+      return res.status(404).json({ error: 'Sipariş bulunamadı' });
     }
+    res.json(order);
+  } catch (err) {
+    logger.error(`API Get Order Error: ${err.message}`);
+    next(err);
+  }
 });
 
 /**
@@ -125,20 +125,22 @@ router.get('/:id', async (req, res, next) => {
  *         description: Sunucu hatası (Transaction rollback edildi.)
  */
 router.post('/', async (req, res, next) => {
-    try {
-        const order = await orderService.createOrder(req.body);
-        res.status(201).json(order);
-    } catch (err) {
-        logger.error(`API Create Order Error: ${err.message}`);
-        
-        if (err.message.includes('InsufficientStock')) {
-            return res.status(400).json({ error: err.message });
-        }
-        if (err.message.includes('CustomerRequired')) {
-            return res.status(400).json({ error: 'Müşteri bilgisi (customerId) zorunludur.' });
-        }
-        next(err);
+  try {
+    const order = await orderService.createOrder(req.body);
+    res.status(201).json(order);
+  } catch (err) {
+    logger.error(`API Create Order Error: ${err.message}`);
+
+    if (err.message.includes('InsufficientStock')) {
+      return res.status(400).json({ error: err.message });
     }
+    if (err.message.includes('CustomerRequired')) {
+      return res
+        .status(400)
+        .json({ error: 'Müşteri bilgisi (customerId) zorunludur.' });
+    }
+    next(err);
+  }
 });
 
 /**
@@ -174,17 +176,20 @@ router.post('/', async (req, res, next) => {
  *         description: Sunucu hatası
  */
 router.put('/:id', async (req, res, next) => {
-    try {
-        const updatedOrder = await orderService.updateOrder(req.params.id, req.body);
-        if (!updatedOrder) {
-            logger.warn(`API Update Order: Order ${req.params.id} not found`);
-            return res.status(404).json({ error: 'Sipariş bulunamadı' });
-        }
-        res.json(updatedOrder);
-    } catch (err) {
-        logger.error(`API Update Order Error: ${err.message}`);
-        next(err);
+  try {
+    const updatedOrder = await orderService.updateOrder(
+      req.params.id,
+      req.body
+    );
+    if (!updatedOrder) {
+      logger.warn(`API Update Order: Order ${req.params.id} not found`);
+      return res.status(404).json({ error: 'Sipariş bulunamadı' });
     }
+    res.json(updatedOrder);
+  } catch (err) {
+    logger.error(`API Update Order Error: ${err.message}`);
+    next(err);
+  }
 });
 
 /**
@@ -209,17 +214,17 @@ router.put('/:id', async (req, res, next) => {
  *         description: Sunucu hatası
  */
 router.delete('/:id', async (req, res, next) => {
-    try {
-        const result = await orderService.deleteOrder(req.params.id);
-        if (!result) {
-            logger.warn(`API Delete Order: Order ${req.params.id} not found`);
-            return res.status(404).json({ error: 'Sipariş bulunamadı' });
-        }
-        res.status(204).send();
-    } catch (err) {
-        logger.error(`API Delete Order Error: ${err.message}`);
-        next(err);
+  try {
+    const result = await orderService.deleteOrder(req.params.id);
+    if (!result) {
+      logger.warn(`API Delete Order: Order ${req.params.id} not found`);
+      return res.status(404).json({ error: 'Sipariş bulunamadı' });
     }
+    res.status(204).send();
+  } catch (err) {
+    logger.error(`API Delete Order Error: ${err.message}`);
+    next(err);
+  }
 });
 
 module.exports = router;
